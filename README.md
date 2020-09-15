@@ -2,4 +2,4 @@
 
 Projeto Integrador 3º Semestre BD - FATEC SJC
 
-![img1_javahype](/uploads/407423a9f71ba1269ab3231faa0059ca/img1_javahype.jpg)
+![img1_javahype](/uploads/3af170f1cf52220384ad369aaf783563/img1_javahype.jpg)
