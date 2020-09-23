@@ -7,11 +7,11 @@
 
 <h1>Visando seu Score!!</h1>
 
-<h5>Em parceria com o SPC, que nos disponibilizou dados do Cadastro Positivo, trazemos aqui uma inovadora aplicação, a Score Wizard.</h5>
+<h5>Em parceria com o SPC, trazemos aqui uma inovadora aplicação, a Score Wizard.</h5>
 
 
 
-A Score Wizard veio para facilitar, onde qualquer consumidor poderá cadastrar seu acesso e consultar seus dados, com previsões e análises, sendo pessoa física ou jurídica.
+A Score Wizard veio para facilitar, onde qualquer consumidor contribuinte poderá cadastrar seu acesso e consultar seus dados, com previsões e análises, sendo pessoa física ou jurídica.
 
 
 <h1>Diferenciais do Score Wizard</h1>
