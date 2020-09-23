@@ -11,5 +11,14 @@
 
 
 
-A Score Wizard veio para facilitar, onde qualquer consumidor poderá cadastrar um acesso e consultar seus dados, com previsões e análises, sendo pessoa física ou jurídica.
+A Score Wizard veio para facilitar, onde qualquer consumidor poderá cadastrar seu acesso e consultar seus dados, com previsões e análises, sendo pessoa física ou jurídica.
 
+
+<h1>Diferenciais do Score Wizard</h1>
+
+Itens que serão os diferenciais da aplicação:
+
+ * Cadastro e acesso extremamente rápido e fácil;
+ * Análise automática de possíveis motivos de baixo score;
+ * Análise do que seria necessário realizar para melhorar score;
+  
