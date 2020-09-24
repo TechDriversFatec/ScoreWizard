@@ -24,7 +24,7 @@ Itens que serão os diferenciais da aplicação:
 
  # BACKLOG
 
-[Requisitos funcionais](https://www.notion.so/7f18a1e392794e4b9ce6b576a1060139)
+![Captura_de_tela_em_2020-09-23_21-52-12](/uploads/aafe9ae1269eedb285a71e1028ca8e33/Captura_de_tela_em_2020-09-23_21-52-12.png)
 
 Lista de requisitos (BackLog):
 
