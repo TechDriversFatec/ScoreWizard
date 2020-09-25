@@ -39,7 +39,7 @@ Itens que serão os diferenciais da aplicação:
 
  #ENTENDA O QUE COMPÕE O CÁLCULO DO SCORE:
 
-![CLique aqui!](https://www.notion.so/Entenda-o-que-comp-e-o-c-lculo-do-Score-1348e1d22dbb49098a775e9d973c86e4)
+![![notion](/uploads/5f76d10558e850c7c9b90105ef7a2141/notion.png) CLique aqui!](https://www.notion.so/Entenda-o-que-comp-e-o-c-lculo-do-Score-1348e1d22dbb49098a775e9d973c86e4)
 
 
 # VISÃO DO PRODUTO
@@ -54,25 +54,38 @@ Requisitos Funcionais:
 De acordo com o Setor de Negócio/MVP sugerido, verificar as possibilidades de cadastros e relatórios;
 
 • Importação e tratamento de dados disponibilizados devem ser utilizados.
-• Poderão utilizar de outras fontes de dados para compor produto
-• Sistema deve possibilitar o registro de novos usuários no sistema de cadastro positivo, assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-se a este:
 
-    - o Empresas que têm o objetivo de consulta do cadastro positivo de consumidores e seu score de crédito  
-    - o Consumidores que desejam consultar seu score de crédito, histórico de pagamentos e também
+• Poderão utilizar de outras fontes de dados para compor produto
+
+• Sistema deve possibilitar o registro de novos usuários no sistema de cadastro positivo,
+assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-se a este:
+
+    - Empresas que têm o objetivo de consulta do cadastro positivo de consumidores e seu score de crédito  
+    - Consumidores que desejam consultar seu score de crédito, histórico de pagamentos e também
 revogar o acesso de alguma empresa
 
 Requisitos Não Funcionais:
 
-• Linguagem de Programação e Stack Java (requisito Fatec)
-• Banco de Dados Relacional (requisito Fatec)
-• Documentações do produto
-• Plano de negócio (forma de venda e monetização da informação)
-• Sistema estruturado para tratar grandes volumes de dados
-• Regras de negócio parametrizáveis para adequação de forma rápida a novas normas
-• Camadas de integração explicitas no projeto
+• Linguagem de Programação e Stack Java (requisito Fatec);
+
+• Banco de Dados Relacional (requisito Fatec);
+
+• Documentações do produto;
+
+• Plano de negócio (forma de venda e monetização da informação);
+
+• Sistema estruturado para tratar grandes volumes de dados;
+
+• Regras de negócio parametrizáveis para adequação de forma rápida a novas normas;
+
+• Camadas de integração explicitas no projeto;
+
 • Atender à Legislação do Cadastro Positivo;
+
 • As informações devem ser apresentadas de forma organizada, amigável e intuitiva;
-• Os relatórios não poderão apresentar informações pessoais, confidenciais e sigilosas.
+
+• Os relatórios não poderão apresentar informações pessoais, confidenciais e sigilosas;
+
 
 
  # BACKLOG
