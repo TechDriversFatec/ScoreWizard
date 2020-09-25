@@ -37,11 +37,52 @@ Itens que serão os diferenciais da aplicação:
  * CSS;
  
 
+ #ENTENDA O QUE COMPÕE O CÁLCULO DO SCORE:
+
+![CLique aqui!](https://www.notion.so/Entenda-o-que-comp-e-o-c-lculo-do-Score-1348e1d22dbb49098a775e9d973c86e4)
+
+
+# VISÃO DO PRODUTO
+
+O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da Fatec de SJC, decidiu ter esse software para obter uma análise estatística da evolução do consumidor em relação ao histórico de pagamentos e também da evolução da nota de score. Esse software é usado por qualquer pessoa física ou jurídica, que possua cadastro positivo e que, ao utilizá-lo, espera melhorar seu score de uma forma melhor do que as outras alternativas existentes no mercado. Espera também, obter dados de sua evolução financeira, afim de contribuir para uma melhora de seu score, e, possivelmente, efetuar novas solicitações de crédito para as instituições financeiras.
+
+
+# REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS
+
+Requisitos Funcionais: 
+
+De acordo com o Setor de Negócio/MVP sugerido, verificar as possibilidades de cadastros e relatórios;
+
+• Importação e tratamento de dados disponibilizados devem ser utilizados.
+• Poderão utilizar de outras fontes de dados para compor produto
+• Sistema deve possibilitar o registro de novos usuários no sistema de cadastro positivo, assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-se a este:
+
+    - o Empresas que têm o objetivo de consulta do cadastro positivo de consumidores e seu score de crédito  
+    - o Consumidores que desejam consultar seu score de crédito, histórico de pagamentos e também
+revogar o acesso de alguma empresa
+
+Requisitos Não Funcionais:
+
+• Linguagem de Programação e Stack Java (requisito Fatec)
+• Banco de Dados Relacional (requisito Fatec)
+• Documentações do produto
+• Plano de negócio (forma de venda e monetização da informação)
+• Sistema estruturado para tratar grandes volumes de dados
+• Regras de negócio parametrizáveis para adequação de forma rápida a novas normas
+• Camadas de integração explicitas no projeto
+• Atender à Legislação do Cadastro Positivo;
+• As informações devem ser apresentadas de forma organizada, amigável e intuitiva;
+• Os relatórios não poderão apresentar informações pessoais, confidenciais e sigilosas.
+
+
  # BACKLOG
 
-![Captura_de_tela_em_2020-09-23_21-52-12](/uploads/aafe9ae1269eedb285a71e1028ca8e33/Captura_de_tela_em_2020-09-23_21-52-12.png)
 
-Lista de requisitos (BackLog):
+![Captura_de_tela_de_2020-09-25_16-14-46](/uploads/a889bd8eb61d6e422d5771247640f801/Captura_de_tela_de_2020-09-25_16-14-46.png)
+
+
+
+<h3>Lista de requisitos (BackLog):</h3>
 
 - Calcular e demonstrar baixo score;
 - Prever o que poderia melhorar o score;
@@ -64,7 +105,7 @@ Lista de requisitos (BackLog):
 - Média de pontos por idade;
 - Compensador de contas (mostrar ao usuário quais contas precisam de mais atenção);
 
-Para o SPC:
+<h3>Para o SPC:</h3>
 
 - Mostrar quantidade de acesso;
 - Mostrar análises efetuadas de clientes que fizeram acesso;
