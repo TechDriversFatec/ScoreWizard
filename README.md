@@ -1,11 +1,11 @@
-# Score Wizard
+# SCORE WIZARD
 
 <h1>Projeto Integrador 3º Semestre BD - Grupo Java Hype</h1>
 
 ![img1_javahype](/uploads/3af170f1cf52220384ad369aaf783563/img1_javahype.jpg)<h1> Em parceria com ![img_spc](/uploads/6857783e3815331197ff74e74a95a480/img_spc.png)</h1>
 
 
-#Visando seu Score!!
+# VISANDO SEU SCORE!!
 
 <h5>Em parceria com o SPC, trazemos aqui uma inovadora aplicação, a Score Wizard.</h5>
 
@@ -14,8 +14,7 @@
 A Score Wizard veio para facilitar, onde qualquer consumidor contribuinte poderá cadastrar seu acesso e consultar seus dados, com previsões e análises, sendo pessoa física ou jurídica.
 
 
-#Diferenciais do Score Wizard
-
+# DIFERENCIAIS DO SCORE WIZARD
 Itens que serão os diferenciais da aplicação:
 
  * Cadastro e acesso extremamente rápido e fácil;
@@ -25,7 +24,7 @@ Itens que serão os diferenciais da aplicação:
  * Compensador de contas (mostrar ao usuário quais contas precisam de mais atenção);
 
 
-#Arquitetura
+# ARQUITETURA
 
  * MySql Community;
  * Java 1.8;
@@ -75,8 +74,7 @@ Para o SPC:
 - Filtrar clientes com alto score;
 - Quantidade de cadastros de acesso por período;
 
-# User Story
-
+# USER STORY
 ![Untitled_Diagram](/uploads/94085ee0bc7062af878b22eeeb220407/Untitled_Diagram.png)
 
 ![img2_1_](/uploads/08fb69458dce5b181a2d96f9e95ba45a/img2_1_.png)
