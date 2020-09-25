@@ -39,7 +39,7 @@ Itens que serão os diferenciais da aplicação:
 
  #ENTENDA O QUE COMPÕE O CÁLCULO DO SCORE:
 
-![![notion](/uploads/5f76d10558e850c7c9b90105ef7a2141/notion.png) CLique aqui!](https://www.notion.so/Entenda-o-que-comp-e-o-c-lculo-do-Score-1348e1d22dbb49098a775e9d973c86e4)
+![(/uploads/5f76d10558e850c7c9b90105ef7a2141/notion.png) CLique aqui!](https://www.notion.so/Entenda-o-que-comp-e-o-c-lculo-do-Score-1348e1d22dbb49098a775e9d973c86e4)
 
 
 # VISÃO DO PRODUTO
@@ -59,10 +59,10 @@ De acordo com o Setor de Negócio/MVP sugerido, verificar as possibilidades de c
 
 • Sistema deve possibilitar o registro de novos usuários no sistema de cadastro positivo,
 assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-se a este:
-
     - Empresas que têm o objetivo de consulta do cadastro positivo de consumidores e seu score de crédito  
-    - Consumidores que desejam consultar seu score de crédito, histórico de pagamentos e também
-revogar o acesso de alguma empresa
+    - Consumidores que desejam consultar seu score de crédito, histórico de pagamentos e também revogar o acesso de alguma empresa
+
+
 
 Requisitos Não Funcionais:
 
