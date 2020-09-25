@@ -5,7 +5,7 @@
 ![img1_javahype](/uploads/3af170f1cf52220384ad369aaf783563/img1_javahype.jpg)<h1> Em parceria com ![img_spc](/uploads/6857783e3815331197ff74e74a95a480/img_spc.png)</h1>
 
 
-<h1>Visando seu Score!!</h1>
+#Visando seu Score!!
 
 <h5>Em parceria com o SPC, trazemos aqui uma inovadora aplicação, a Score Wizard.</h5>
 
@@ -14,13 +14,29 @@
 A Score Wizard veio para facilitar, onde qualquer consumidor contribuinte poderá cadastrar seu acesso e consultar seus dados, com previsões e análises, sendo pessoa física ou jurídica.
 
 
-<h1>Diferenciais do Score Wizard</h1>
+#Diferenciais do Score Wizard
 
 Itens que serão os diferenciais da aplicação:
 
  * Cadastro e acesso extremamente rápido e fácil;
  * Análise automática de possíveis motivos de baixo score;
  * Análise do que seria necessário realizar para melhorar score;
+ * Média de pontos por idade;
+ * Compensador de contas (mostrar ao usuário quais contas precisam de mais atenção);
+
+
+#Arquitetura
+
+ * MySql Community;
+ * Java 1.8;
+ * Spring 2.3.0;
+ * Maven/Gradle;
+ * Hibernate; 
+ * Bootstrap 4;
+ * Html5;
+ * JavaScript;
+ * CSS;
+ 
 
  # BACKLOG
 
@@ -31,6 +47,7 @@ Lista de requisitos (BackLog):
 - Calcular e demonstrar baixo score;
 - Prever o que poderia melhorar o score;
 - Informar boas práticas de forma dinâmica para obter um bom score;
+- Decisão de escolher se aceita ou não Score;
 - Cadastro de acesso pessoa física e jurídica;
 - Prever o futuro do score;
 - Mostrar visualmente o que compõe o score;
@@ -45,6 +62,8 @@ Lista de requisitos (BackLog):
 - Telas fáceis de manusear;
 - Telas com resultados já calculados;
 - Disponibilizar download de relatórios em PDF;
+- Média de pontos por idade;
+- Compensador de contas (mostrar ao usuário quais contas precisam de mais atenção);
 
 Para o SPC:
 
