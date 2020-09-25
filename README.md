@@ -47,12 +47,12 @@ Itens que serão os diferenciais da aplicação:
 
 # VISÃO DO PRODUTO
 
-O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da Fatec de SJC, decidiu ter esse software para obter uma análise estatística da evolução do consumidor em relação ao histórico de pagamentos e também da evolução da nota de score. Esse software é usado por qualquer pessoa física ou jurídica, que possua cadastro positivo e que, ao utilizá-lo, espera melhorar seu score de uma forma melhor do que as outras alternativas existentes no mercado. Espera também, obter dados de sua evolução financeira, afim de contribuir para uma melhora de seu score, e, possivelmente, efetuar novas solicitações de crédito para as instituições financeiras.
+O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da Fatec de SJC, necessita de um software para obter uma análise estatística da evolução do consumidor em relação ao histórico de pagamentos e também da evolução da nota de score. Esse software é usado por qualquer pessoa física ou jurídica, que possua cadastro positivo e que, ao utilizá-lo, espera melhorar seu score de uma forma melhor do que as outras alternativas existentes no mercado. Espera também, obter dados de sua evolução financeira, afim de contribuir para uma melhora de seu score, e, possivelmente, efetuar novas solicitações de crédito para as instituições financeiras.
 
 
 # REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS
 
-Requisitos Funcionais: 
+<h3>Requisitos Funcionais:</h3> 
 
 De acordo com o Setor de Negócio/MVP sugerido, verificar as possibilidades de cadastros e relatórios;
 
@@ -68,7 +68,7 @@ assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-
 
 
 
-Requisitos Não Funcionais:
+<h3>Requisitos Não Funcionais:</h3>
 
 • Linguagem de Programação e Stack Java (requisito Fatec);
 
