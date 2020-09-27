@@ -108,6 +108,7 @@ assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-
 - Cadastro de acesso pessoa física e jurídica;
 - Prever o futuro do score;
 - Mostrar visualmente o que compõe o score;
+
 - Se já foi negativado ou não;
 - Ajuda financeira;
 - Opção de sistema mobile;
@@ -138,4 +139,24 @@ assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-
 ![img2_1_](/uploads/08fb69458dce5b181a2d96f9e95ba45a/img2_1_.png)
 
 ![Untitled_Diagram_3_](/uploads/548b9ab94b5d43563e28650ea36be486/Untitled_Diagram_3_.png)
-  
+
+
+# WIREFRAME
+
+Tela de Login
+
+![Captura_de_tela_em_2020-09-27_20-28-08](/uploads/f0d0152d475010989b3c10a330010f26/Captura_de_tela_em_2020-09-27_20-28-08.png)
+
+#
+
+DashBoard
+
+
+![Captura_de_tela_em_2020-09-27_20-27-21](/uploads/d44c55e0a3cb090ea842639d9581f99f/Captura_de_tela_em_2020-09-27_20-27-21.png)
+
+#
+Cadastro de acesso
+
+
+![Captura_de_tela_em_2020-09-27_20-26-59](/uploads/269b7879380546c8d80610cdb840641d/Captura_de_tela_em_2020-09-27_20-26-59.png)
+
