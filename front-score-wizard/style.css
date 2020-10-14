@@ -1,0 +1,41 @@
+body {
+    color: #2e2e2e;
+    background-image: url("img/fundo.png");
+    background-size: cover;
+}
+/* 
+#imagemlogin {
+    width: 600px;
+    height: 650px;
+} */
+
+#login {
+    position: absolute;
+    top: 90px;
+    left: 800px;
+    background-color: #f7f7f8;
+}
+
+#seta {
+    font-size: 30px;
+}
+
+#voltar {
+    position: absolute;
+    top: 70px;
+    left: 110px;
+    font-size: 20px;
+}
+
+.form-style {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0%;
+    border-bottom-color:#4d4d4d;
+    background-color: transparent;
+}
+
+#entrar {
+    background-color: #ebc130;
+}
