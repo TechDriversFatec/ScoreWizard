@@ -39,7 +39,21 @@ body {
     border-bottom-color:#4d4d4d;
     background-color: transparent;
 }
+.form-style:focus {
+    background-color: transparent;
+}
 
-#entrar {
+
+.btn-custom {
     background-color: #ebc130;
+    width: 100%;
+}
+
+.btn-custom:hover {
+    background-color: #bb8f00;
+    color: white;
+}
+
+.bg-custom {
+    background-color: #f7f7f8a4; 
 }
