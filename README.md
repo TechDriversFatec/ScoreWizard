@@ -44,6 +44,45 @@ Itens que serão os diferenciais da aplicação:
  * GUSTAVO RIBEIRO DOS SANTOS 
  * GIOVANNI GUIDACE MARASSI TANURI (Master)
 
+# CRONOGRAMA DE ENTREGA - SCORE WIZARD
+
+  * Entregas Sprint 0:
+        - Visão do Produto;
+        - Requisitos funcionais e não funcionais;
+        - Diferenciais do Score Wizard;
+        - Levantamento de Arquitetura;
+        - User Story;
+        - Wireframe;
+        - Backlog;
+        - Analise completa do que compõe o Score;
+
+  * Entregas Sprint 1:
+        - BurnDown;
+        - Modelo conceitual (Dataset);
+        - Modelo lógico (Dataset);
+        - Tela de Login (Front-End); 
+        - Cadastro de acesso (Front-End); 
+        - DashBoard (Front-End);
+        - Models (Back-End);
+        - Fluxograma;
+        - Caso de Uso;
+
+  * Entregas Sprint 2:
+        - BurnDown;
+        - Tela de acesso (Login) integrado ao Back-End;
+        - DashBoard integrado ao Back-End;
+        - Cadastro de acesso integrado ao Back-End;
+        - Tela de DashBoard para o SteakHolder (Front-End);
+        - Tela de acesso privativo aos SteakHolders (Front-End);
+        - Deploy Heroku;
+        - Documentação aplicação - Parte 1/2
+
+  * Entregas Sprint 3 (Final):
+        - BurnDown;
+        - Tela de DashBoard dos SteakHolders integrada ao Back-End;
+        - Tela de acesso privativo dos SteakHolders integrada ao Back-End;
+        - Deploy Heroku;
+        - Documentação aplicação - Parte 2/2
 
  # ENTENDA O QUE COMPÕE O CÁLCULO DO SCORE:
 
