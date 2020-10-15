@@ -239,7 +239,7 @@ Cadastro de acesso
 
 #
 
-# CASO DE USO - SCORE WIZARD
+# CASO DE USO - SCORE WIZARD 
 
 
 ![CASO_DE_USO_-_SCORE_WIZARD__3_](/uploads/f20e716a081edc21bbe86301d5f21a81/CASO_DE_USO_-_SCORE_WIZARD__3_.png)
