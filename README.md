@@ -47,17 +47,27 @@ Itens que serão os diferenciais da aplicação:
 # CRONOGRAMA DE ENTREGA - SCORE WIZARD
 
   * Entregas Sprint 0:
+
         - Visão do Produto;
+
         - Requisitos funcionais e não funcionais;
+
         - Diferenciais do Score Wizard;
+
         - Levantamento de Arquitetura;
+
         - User Story;
+
         - Wireframe;
+
         - Backlog;
+
         - Analise completa do que compõe o Score;
 
   * Entregas Sprint 1:
+  
         - BurnDown;
+
         - Modelo conceitual (Dataset);
         - Modelo lógico (Dataset);
         - Tela de Login (Front-End); 
