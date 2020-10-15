@@ -237,3 +237,9 @@ Cadastro de acesso
 
 ![Captura_de_tela_em_2020-09-27_20-26-59](/uploads/269b7879380546c8d80610cdb840641d/Captura_de_tela_em_2020-09-27_20-26-59.png)
 
+#
+
+# CASO DE USO - SCORE WIZARD
+
+![CASO_DE_USO_-_SCORE_WIZARD__2_](/uploads/3b51793e4e07d165399b3ebd56204381/CASO_DE_USO_-_SCORE_WIZARD__2_.png)
+
