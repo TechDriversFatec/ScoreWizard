@@ -1,0 +1,59 @@
+body {
+    color: #2e2e2e;
+    background-image: url("img/fundo.png");
+    background-size: cover;
+}
+/* 
+#imagemlogin {
+    width: 600px;
+    height: 650px;
+} */
+
+#login {
+    position: absolute;
+    top: 90px;
+    left: 800px;
+    background-color: #f7f7f8;
+}
+
+#link-voltar {
+    color: black;
+}
+
+#seta {
+    font-size: 30px;
+}
+
+#voltar {
+    position: absolute;
+    top: 67px;
+    left: 100px;
+    font-size: 20px;
+}
+
+.form-style {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0%;
+    border-bottom-color:#4d4d4d;
+    background-color: transparent;
+}
+.form-style:focus {
+    background-color: transparent;
+}
+
+
+.btn-custom {
+    background-color: #ebc130;
+    width: 100%;
+}
+
+.btn-custom:hover {
+    background-color: #bb8f00;
+    color: white;
+}
+
+.bg-custom {
+    background-color: #f7f7f8a4; 
+}
