@@ -243,3 +243,18 @@ Cadastro de acesso
 
 
 ![CASO_DE_USO_-_SCORE_WIZARD__3_](/uploads/f20e716a081edc21bbe86301d5f21a81/CASO_DE_USO_-_SCORE_WIZARD__3_.png)
+
+
+# MODELAGEM DE BANCO DE DADOS
+
+ * Modelo Conceitual
+
+
+![WhatsApp_Image_2020-10-16_at_17.56.40](/uploads/ae8ce61a883252b9710ebd58cc5f2e2d/WhatsApp_Image_2020-10-16_at_17.56.40.jpeg)
+
+
+* Modelo Lógico
+
+
+![WhatsApp_Image_2020-10-13_at_21.33.55](/uploads/e8259aae90ca69996a71fbc9651a1e1d/WhatsApp_Image_2020-10-13_at_21.33.55.jpeg)
+
