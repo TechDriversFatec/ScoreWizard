@@ -44,6 +44,83 @@ Itens que serão os diferenciais da aplicação:
  * GUSTAVO RIBEIRO DOS SANTOS 
  * GIOVANNI GUIDACE MARASSI TANURI (Master)
 
+# CRONOGRAMA DE ENTREGA - SCORE WIZARD
+
+  * Entregas Sprint 0:
+
+        - Visão do Produto;
+
+        - Requisitos funcionais e não funcionais;
+
+        - Diferenciais do Score Wizard;
+
+        - Levantamento de Arquitetura;
+
+        - User Story;
+
+        - Wireframe;
+
+        - Backlog;
+
+        - Analise completa do que compõe o Score;
+
+  * Entregas Sprint 1:
+  
+        - BurnDown;
+
+        - Modelo conceitual (Dataset);
+
+        - Modelo lógico (Dataset);
+
+        - Tela de Login (Front-End); 
+
+        - Cadastro de acesso (Front-End); 
+
+        - DashBoard (Front-End);
+
+        - Models (Back-End);
+
+        - Fluxograma;
+
+        - Caso de Uso;
+
+
+      Burndown sprint 1:
+
+      
+![Captura_de_tela_em_2020-10-18_16-41-46](/uploads/6be50d0bbc703de5286db001f700ecba/Captura_de_tela_em_2020-10-18_16-41-46.png)
+
+
+
+  * Entregas Sprint 2:
+
+        - BurnDown;
+
+        - Tela de acesso (Login) integrado ao Back-End;
+
+        - DashBoard integrado ao Back-End;
+
+        - Cadastro de acesso integrado ao Back-End;
+
+        - Tela de DashBoard para o SteakHolder (Front-End);
+
+        - Tela de acesso privativo aos SteakHolders (Front-End);
+
+        - Deploy Heroku;
+
+        - Documentação aplicação - Parte 1/2
+
+  * Entregas Sprint 3 (Final):
+
+        - BurnDown;
+
+        - Tela de DashBoard dos SteakHolders integrada ao Back-End;
+
+        - Tela de acesso privativo dos SteakHolders integrada ao Back-End;
+
+        - Deploy Heroku;
+        
+        - Documentação aplicação - Parte 2/2
 
  # ENTENDA O QUE COMPÕE O CÁLCULO DO SCORE:
 
@@ -167,4 +244,25 @@ Cadastro de acesso
 
 
 ![Captura_de_tela_em_2020-09-27_20-26-59](/uploads/269b7879380546c8d80610cdb840641d/Captura_de_tela_em_2020-09-27_20-26-59.png)
+
+#
+
+# CASO DE USO - SCORE WIZARD 
+
+
+![CASO_DE_USO_-_SCORE_WIZARD__3_](/uploads/f20e716a081edc21bbe86301d5f21a81/CASO_DE_USO_-_SCORE_WIZARD__3_.png)
+
+
+# MODELAGEM DE BANCO DE DADOS
+
+ * Modelo Conceitual
+
+
+![WhatsApp_Image_2020-10-16_at_17.56.40](/uploads/ae8ce61a883252b9710ebd58cc5f2e2d/WhatsApp_Image_2020-10-16_at_17.56.40.jpeg)
+
+
+* Modelo Lógico
+
+
+![WhatsApp_Image_2020-10-13_at_21.33.55](/uploads/e8259aae90ca69996a71fbc9651a1e1d/WhatsApp_Image_2020-10-13_at_21.33.55.jpeg)
 
