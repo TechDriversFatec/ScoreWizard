@@ -1,32 +1,43 @@
 package com.pi3.scorewizard.pessoafisica;
 
 import java.util.Date;
+import java.util.List;
 
 import javax.persistence.*;
+
+import com.pi3.scorewizard.movimento.Movimento;
+import com.pi3.scorewizard.operacao.Operacao;
 
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
+@Entity 
 @Getter
 @Setter
 public class PessoaFisica {
 	@Id
-	private int cpf_pef;
-	private char sexo_pef;
-	private Date datanasc_pef;
-	private String cidade_pef;
-	private String estado_pef;
+	private int docCli;
+
+	@OneToMany(mappedBy = "pessoaFisica")
+	private List<Movimento> movimentos;
+
+	@OneToMany(mappedBy = "pessoaFisica")
+	private List<Operacao> operacoes;
+
+	private char sexo;
+	private Date dataNasc;
+	private String cidade;
+	private String estado;
 	
 	public PessoaFisica(){}
 	
-	public PessoaFisica(int cpf_pef, char sexo_pef, Date datanasc_pef, String cidade_pef, String estado_pef) {
+	public PessoaFisica(int docCli, char sexo, Date dataNasc, String cidade, String estado) {
 		super();
-		this.cpf_pef = cpf_pef;
-		this.sexo_pef = sexo_pef;
-		this.datanasc_pef = datanasc_pef;
-		this.cidade_pef = cidade_pef;
-		this.estado_pef = estado_pef;
+		this.docCli = docCli;
+		this.sexo = sexo;
+		this.dataNasc = dataNasc;
+		this.cidade = cidade;
+		this.estado = estado;
 	}
 	
 	

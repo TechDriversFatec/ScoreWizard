@@ -4,6 +4,10 @@ import java.util.Date;
 
 import javax.persistence.*;
 
+import com.pi3.scorewizard.fonte.Fonte;
+import com.pi3.scorewizard.modalidade.Modalidade;
+import com.pi3.scorewizard.pessoafisica.PessoaFisica;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,36 +17,42 @@ import lombok.Setter;
 public class Operacao {
 	@Id
 	private int id;
-	private String tipoCliente_operacoes;
-	private int num_unc;
-	private int qtdParcela_operacao;
-	private Date dat_vct_ult_pcl;
-	private Date dataContrato_operacao;
-	private Double valorContratoParcelado_operacao;
-	private Double valorContrato_operacao;
+
+	@ManyToOne
+    @JoinColumn(name="pessoaFisica_docCli")
+	private PessoaFisica pessoaFisica;
+
+	@ManyToOne
+    @JoinColumn(name="fonte_id")
+	private Fonte fonte;
+
+	@ManyToOne
+    @JoinColumn(name="modalidade_id")
+	private Modalidade modalidade;
+	
+	private String tipoCliente;
+	private int numUnc;
+	private int qtdParcela;
+	private Date dataVencimentoUltimaParcela;
+	private Date dataContrato;
+	private Double valorContratoParcelado;
+	private Double valorContrato;
 	private Double valorSaldoDevedor;
-	private int pessoaFisica_cpf_pef;
-	private int fonte_id_fonte;
-	private int modalidade_id_modalidade;
 	
 	public Operacao(){}
 	
-	public Operacao(int id, String tipoCliente_operacoes, int num_unc, int qtdParcela_operacao, Date dat_vct_ult_pcl,
-			Date dataContrato_operacao, Double valorContratoParcelado_operacao, Double valorContrato_operacao,
-			Double valorSaldoDevedor, int pessoaFisica_cpf_pef, int fonte_id_fonte, int modalidade_id_modalidade) {
+	public Operacao(int id, String tipoCliente_operacoes, int numUnc, int qtdParcela, Date dataVencimentoUltimaParcela,
+			Date dataContrato, Double valorContratoParcelado, Double valorContrato, Double valorSaldoDevedor) {
 		super();
 		this.id = id;
-		this.tipoCliente_operacoes = tipoCliente_operacoes;
-		this.num_unc = num_unc;
-		this.qtdParcela_operacao = qtdParcela_operacao;
-		this.dat_vct_ult_pcl = dat_vct_ult_pcl;
-		this.dataContrato_operacao = dataContrato_operacao;
-		this.valorContratoParcelado_operacao = valorContratoParcelado_operacao;
-		this.valorContrato_operacao = valorContrato_operacao;
+		this.tipoCliente = tipoCliente_operacoes;
+		this.numUnc = numUnc;
+		this.qtdParcela = qtdParcela;
+		this.dataVencimentoUltimaParcela = dataVencimentoUltimaParcela;
+		this.dataContrato = dataContrato;
+		this.valorContratoParcelado = valorContratoParcelado;
+		this.valorContrato = valorContrato;
 		this.valorSaldoDevedor = valorSaldoDevedor;
-		this.pessoaFisica_cpf_pef = pessoaFisica_cpf_pef;
-		this.fonte_id_fonte = fonte_id_fonte;
-		this.modalidade_id_modalidade = modalidade_id_modalidade;
 	}
 	
 	
