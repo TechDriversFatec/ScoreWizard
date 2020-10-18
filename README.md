@@ -84,6 +84,11 @@ Itens que serão os diferenciais da aplicação:
 
         - Caso de Uso;
 
+
+      Burndown sprint 1:
+
+      ![image.png](./image.png)
+
   * Entregas Sprint 2:
 
         - BurnDown;
