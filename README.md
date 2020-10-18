@@ -87,7 +87,10 @@ Itens que serão os diferenciais da aplicação:
 
       Burndown sprint 1:
 
-      ![image.png](./image.png)
+      
+![Captura_de_tela_em_2020-10-18_16-41-46](/uploads/6be50d0bbc703de5286db001f700ecba/Captura_de_tela_em_2020-10-18_16-41-46.png)
+
+
 
   * Entregas Sprint 2:
 
