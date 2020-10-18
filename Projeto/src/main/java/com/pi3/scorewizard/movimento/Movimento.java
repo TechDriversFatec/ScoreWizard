@@ -4,6 +4,9 @@ import java.util.Date;
 
 import javax.persistence.*;
 
+import com.pi3.scorewizard.fonte.Fonte;
+import com.pi3.scorewizard.pessoafisica.PessoaFisica;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,36 +16,43 @@ import lombok.Setter;
 public class Movimento {
 	@Id
 	private int id;
-	private Date dataVencimento_mov;
-	private int qtdParcelasAVencer_mov;
-	private int qtdParcelasAPagar_mov;
-	private Double valorFatura_mov;
-	private Double valorMinimoFatura_mov;
+
+	@ManyToOne
+    @JoinColumn(name="pessoaFisica_docCli")
+	private PessoaFisica pessoaFisica;
+
+	@ManyToOne
+    @JoinColumn(name="fonte_id")
+	private Fonte fonte;
+
+	private Date dataVencimento;
+	private int qtdParcelasAVencer;
+	private int qtdParcelasAPagar;
+	private Double valorFatura;
+	private Double valorMinimoFatura;
 	private Double valorParcela;
 	private String movimentoAtual;
-	private String prd_mov;
-	private int PessoaFisica_cpf_pef;
-	private String tipo_cli;
-	private int num_unc;
+	private String periodo;
+	private String tipoCliente;
+	private int numUnc;
 	
 	public Movimento(){}
 	
-	public Movimento(int id, Date dataVencimento_mov, int qtdParcelasAVencer_mov, int qtdParcelasAPagar_mov,
-			Double valorFatura_mov, Double valorMinimoFatura_mov, Double valorParcela, String movimentoAtual,
-			String prd_mov, int pessoaFisica_cpf_pef, String tipo_cli, int num_unc) {
+	public Movimento(int id, Date dataVencimento, int qtdParcelasAVencer, int qtdParcelasAPagar,
+			Double valorFatura, Double valorMinimoFatura, Double valorParcela, String movimentoAtual,
+			String periodo, String tipoCliente, int numUnc) {
 		super();
 		this.id = id;
-		this.dataVencimento_mov = dataVencimento_mov;
-		this.qtdParcelasAVencer_mov = qtdParcelasAVencer_mov;
-		this.qtdParcelasAPagar_mov = qtdParcelasAPagar_mov;
-		this.valorFatura_mov = valorFatura_mov;
-		this.valorMinimoFatura_mov = valorMinimoFatura_mov;
+		this.dataVencimento = dataVencimento;
+		this.qtdParcelasAVencer = qtdParcelasAVencer;
+		this.qtdParcelasAPagar = qtdParcelasAPagar;
+		this.valorFatura = valorFatura;
+		this.valorMinimoFatura = valorMinimoFatura;
 		this.valorParcela = valorParcela;
 		this.movimentoAtual = movimentoAtual;
-		this.prd_mov = prd_mov;
-		PessoaFisica_cpf_pef = pessoaFisica_cpf_pef;
-		this.tipo_cli = tipo_cli;
-		this.num_unc = num_unc;
+		this.periodo = periodo;
+		this.tipoCliente = tipoCliente;
+		this.numUnc = numUnc;
 	}
 	
 	

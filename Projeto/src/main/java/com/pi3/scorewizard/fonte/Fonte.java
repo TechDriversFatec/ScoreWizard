@@ -1,6 +1,12 @@
 package com.pi3.scorewizard.fonte;
 
+import java.util.List;
+
 import javax.persistence.*;
+
+import com.pi3.scorewizard.movimento.Movimento;
+import com.pi3.scorewizard.operacao.Operacao;
+import com.pi3.scorewizard.pagamento.Pagamento;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -11,14 +17,23 @@ import lombok.Setter;
 public class Fonte {
 	@Id
 	private int id;
-	private String nome_fonte;
+	private String nomeFonte;
+
+	@OneToMany(mappedBy = "fonte")
+	private List<Movimento> movimento;
+
+	@OneToMany(mappedBy = "fonte")
+	private List<Operacao> operacoes;
+
+	@OneToMany(mappedBy = "fonte")
+	private List<Pagamento> pagamentos;
 	
 	public Fonte() {}
 	
-	public Fonte(int id, String nome_fonte) {
+	public Fonte(int id, String nomeFonte) {
 		super();
 		this.id = id;
-		this.nome_fonte = nome_fonte;
+		this.nomeFonte = nomeFonte;
 	}
 	
 	
