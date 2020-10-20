@@ -257,8 +257,7 @@ Cadastro de acesso
 
  * Modelo Conceitual
 
-![WhatsApp_Image_2020-10-19_at_00.06.59](/uploads/aea995ff595fe9dac221c77d8910ee2d/WhatsApp_Image_2020-10-19_at_00.06.59.jpeg)
-
+![WhatsApp_Image_2020-10-19_at_20.19.18](/uploads/942c0cdae25e731f61bbf70d64544f5b/WhatsApp_Image_2020-10-19_at_20.19.18.jpeg)
 
 * Modelo Lógico
 
