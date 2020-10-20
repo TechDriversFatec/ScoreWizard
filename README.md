@@ -218,6 +218,8 @@ assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-
 - Filtrar clientes com alto score;
 - Quantidade de cadastros de acesso por período;
 
+#
+
 # USER STORY
 ![Untitled_Diagram](/uploads/94085ee0bc7062af878b22eeeb220407/Untitled_Diagram.png)
 
@@ -225,6 +227,7 @@ assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-
 
 ![Untitled_Diagram_3_](/uploads/548b9ab94b5d43563e28650ea36be486/Untitled_Diagram_3_.png)
 
+#
 
 # WIREFRAME
 
@@ -252,6 +255,7 @@ Cadastro de acesso
 
 ![CASO_DE_USO_-_SCORE_WIZARD__3_](/uploads/f20e716a081edc21bbe86301d5f21a81/CASO_DE_USO_-_SCORE_WIZARD__3_.png)
 
+#
 
 # MODELAGEM DE BANCO DE DADOS
 
@@ -263,4 +267,31 @@ Cadastro de acesso
 
 
 ![WhatsApp_Image_2020-10-13_at_21.33.55](/uploads/e8259aae90ca69996a71fbc9651a1e1d/WhatsApp_Image_2020-10-13_at_21.33.55.jpeg)
+
+#
+
+# FLUXOGRAMA 
+
+
+ * ### CADASTRO DE PESSOA FÍSICA
+
+![Untitled__1_](/uploads/3dc6e9a6d03dca035a3b373b50abfaff/Untitled__1_.png)
+
+#
+
+ * ### CADASTRO DE PESSOA JURÍDICA
+
+ ![Untitled__2_](/uploads/55a603700a82f9c5ac6240ec6d2a3ae9/Untitled__2_.png)
+
+ #
+
+ * ### LOGIN
+
+![Untitled__3_](/uploads/4d96ffa0717698e3700ac27f83767739/Untitled__3_.png)
+
+ #
+
+ * ### BAIXAR ESTATÍSTICAS DO SISTEMA PARA O SPC EM PDF
+
+![Untitled__4_](/uploads/91bcb7777b90ee80544c38a6fa0d2211/Untitled__4_.png)
 
