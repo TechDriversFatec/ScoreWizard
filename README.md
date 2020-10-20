@@ -266,7 +266,7 @@ Cadastro de acesso
 * Modelo Lógico
 
 
-![WhatsApp_Image_2020-10-13_at_21.33.55](/uploads/e8259aae90ca69996a71fbc9651a1e1d/WhatsApp_Image_2020-10-13_at_21.33.55.jpeg)
+![WhatsApp_Image_2020-10-20_at_19.00.14](/uploads/15fc1d1f1914f30d4f20ee70bc96e728/WhatsApp_Image_2020-10-20_at_19.00.14.jpeg)
 
 #
 
