@@ -90,7 +90,9 @@ Itens que serão os diferenciais da aplicação:
       
 ![Captura_de_tela_em_2020-10-18_16-41-46](/uploads/6be50d0bbc703de5286db001f700ecba/Captura_de_tela_em_2020-10-18_16-41-46.png)
 
+      Vídeo Sprint 1:
 
+      https://www.youtube.com/watch?v=N6uJoH0slgI
 
   * Entregas Sprint 2:
 
