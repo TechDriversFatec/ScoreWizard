@@ -85,14 +85,16 @@ Itens que serão os diferenciais da aplicação:
         - Caso de Uso;
 
 
-      Burndown sprint 1:
+###   Burndown sprint 1:
 
       
 ![Captura_de_tela_em_2020-10-18_16-41-46](/uploads/6be50d0bbc703de5286db001f700ecba/Captura_de_tela_em_2020-10-18_16-41-46.png)
 
-      Vídeo Sprint 1:
+      
 
-      https://www.youtube.com/watch?v=N6uJoH0slgI
+### [Vídeo Entrega 2 (Sprint 1)](https://www.youtube.com/watch?v=N6uJoH0slgI "Vídeo Sprint 1:")
+
+#
 
   * Entregas Sprint 2:
 
