@@ -59,7 +59,7 @@ O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da F
 
 # CRONOGRAMA DE ENTREGA - SCORE WIZARD
 
-  * Entregas Sprint 0:
+ <h2> * Entregas Sprint 0: </h2>
 
         - Visão do Produto;
 
@@ -77,7 +77,7 @@ O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da F
 
         - Analise completa do que compõe o Score;
 
-  * Entregas Sprint 1:
+ <h2> * Entregas Sprint 1: </h2>
   
         - BurnDown;
 
@@ -105,11 +105,11 @@ O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da F
 
       
 
-### [Vídeo Entrega 2 (Sprint 1)](https://www.youtube.com/watch?v=N6uJoH0slgI "Vídeo Sprint 1:")
+### [Vídeo  Sprint 1](https://www.youtube.com/watch?v=N6uJoH0slgI "Vídeo Sprint 1:")
 
 #
 
-  * Entregas Sprint 2:
+<h2>  * Entregas Sprint 2: </h2>
 
         - BurnDown;
 
@@ -127,7 +127,7 @@ O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da F
 
         - Documentação aplicação - Parte 1/2
 
-  * Entregas Sprint 3 (Final):
+<h2>  * Entregas Sprint 3 (Final): </h2>
 
         - BurnDown;
 
@@ -138,6 +138,8 @@ O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da F
         - Deploy Heroku;
         
         - Documentação aplicação - Parte 2/2
+
+#
 
  # ENTENDA O QUE COMPÕE O CÁLCULO DO SCORE:
 
@@ -189,6 +191,7 @@ assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-
 • Os relatórios não poderão apresentar informações pessoais, confidenciais e sigilosas;
 
 
+#
 
  # BACKLOG
 
