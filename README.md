@@ -4,6 +4,7 @@
 
 ![img1_javahype](/uploads/3af170f1cf52220384ad369aaf783563/img1_javahype.jpg)<h1> Em parceria com ![img_spc](/uploads/6857783e3815331197ff74e74a95a480/img_spc.png)</h1>
 
+#
 
 # VISANDO SEU SCORE!!
 
@@ -13,6 +14,7 @@
 
 A Score Wizard veio para facilitar, onde qualquer consumidor contribuinte poderá cadastrar seu acesso e consultar seus dados, com previsões e análises, sendo pessoa física ou jurídica.
 
+#
 
 # DIFERENCIAIS DO SCORE WIZARD
 Itens que serão os diferenciais da aplicação:
@@ -23,6 +25,7 @@ Itens que serão os diferenciais da aplicação:
  * Média de pontos por idade;
  * Compensador de contas (mostrar ao usuário quais contas precisam de mais atenção);
 
+#
 
 # ARQUITETURA
 
@@ -36,6 +39,8 @@ Itens que serão os diferenciais da aplicação:
  * JavaScript;
  * CSS;
  
+ #
+
 # INTEGRANTES
 
  * SABRINA RAFAELA CALADO MARIANO (Product Owner)
@@ -43,6 +48,14 @@ Itens que serão os diferenciais da aplicação:
  * ARTHUR CARDOSO RINALDI DA SILVA 
  * GUSTAVO RIBEIRO DOS SANTOS 
  * GIOVANNI GUIDACE MARASSI TANURI (Master)
+
+#
+
+# VISÃO DO PRODUTO
+
+O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da Fatec de SJC, necessita de um software para obter uma análise estatística da evolução do consumidor em relação ao histórico de pagamentos e também da evolução da nota de score. Esse software é usado por qualquer pessoa física ou jurídica, que possua cadastro positivo e que, ao utilizá-lo, espera melhorar seu score de uma forma melhor do que as outras alternativas existentes no mercado. Espera também, obter dados de sua evolução financeira, afim de contribuir para uma melhora de seu score, e, possivelmente, efetuar novas solicitações de crédito para as instituições financeiras.
+
+#
 
 # CRONOGRAMA DE ENTREGA - SCORE WIZARD
 
@@ -129,14 +142,9 @@ Itens que serão os diferenciais da aplicação:
  # ENTENDA O QUE COMPÕE O CÁLCULO DO SCORE:
 
 
-![](/uploads/9c3fa75408db5c3b2b61ba930b8bad3e/notion.png)<h1>[Clique aqui](https://www.notion.so/Entenda-o-que-comp-e-o-c-lculo-do-Score-1348e1d22dbb49098a775e9d973c86e4)</h1>
+<h1>[Clique aqui](https://www.notion.so/Entenda-o-que-comp-e-o-c-lculo-do-Score-1348e1d22dbb49098a775e9d973c86e4)</h1>
 
 #
-
-
-# VISÃO DO PRODUTO
-
-O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da Fatec de SJC, necessita de um software para obter uma análise estatística da evolução do consumidor em relação ao histórico de pagamentos e também da evolução da nota de score. Esse software é usado por qualquer pessoa física ou jurídica, que possua cadastro positivo e que, ao utilizá-lo, espera melhorar seu score de uma forma melhor do que as outras alternativas existentes no mercado. Espera também, obter dados de sua evolução financeira, afim de contribuir para uma melhora de seu score, e, possivelmente, efetuar novas solicitações de crédito para as instituições financeiras.
 
 
 # REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS
@@ -152,8 +160,9 @@ De acordo com o Setor de Negócio/MVP sugerido, verificar as possibilidades de c
 • Sistema deve possibilitar o registro de novos usuários no sistema de cadastro positivo,
 assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-se a este:
 
-    - Empresas que têm o objetivo de consulta do cadastro positivo de consumidores e seu score de crédito  
-    - Consumidores que desejam consultar seu score de crédito, histórico de pagamentos e também revogar o acesso de alguma empresa
+ Empresas que têm o objetivo de consulta do cadastro positivo de consumidores e seu score de crédito  
+ 
+ Consumidores que desejam consultar seu score de crédito, histórico de pagamentos e também revogar o acesso de alguma empresa
 
 
 
