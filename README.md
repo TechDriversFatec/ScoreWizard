@@ -117,15 +117,13 @@ Importar dados do dataset para aplicação                | Scrum Team;      |  
 
 <h2>  * Entregas Sprint 3 (Final): </h2>
 
-        - BurnDown;
-
-        - Tela de DashBoard dos SteakHolders integrada ao Back-End;
-
-        - Tela de acesso privativo dos SteakHolders integrada ao Back-End;
-
-        - Deploy Heroku;
-        
-        - Documentação aplicação - Parte 2/2
+Requisito                                                       | Equipe Destinada | Grau de Prioridade | Status
+---------------------------------------                         | ---------------- | :-------:          |  :--------:
+BurnDown                                                        | Scrum Master;    |         5          |  Em aberto
+Tela de DashBoard dos SteakHolders integrada ao Back-End        | Scrum Team;      |         1          |  Em aberto
+Tela de acesso privativo dos SteakHolders integrada ao Back-End | Scrum Team;      |         1          |  Em aberto
+Deploy Heroku                                                   | Scrum Team;      |         5          |  Em aberto
+Documentação aplicação - Parte 2/2                              | Scrum Master;    |         5          |  Em aberto
 
 #
 
@@ -178,45 +176,6 @@ assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-
 
 • Os relatórios não poderão apresentar informações pessoais, confidenciais e sigilosas;
 
-
-#
-
- # BACKLOG
-
-
-<h3>Lista de requisitos (BackLog):</h3>
-
-- Calcular e demonstrar baixo score;
-- Prever o que poderia melhorar o score;
-- Informar boas práticas de forma dinâmica para obter um bom score;
-- Decisão de escolher se aceita ou não Score;
-- Cadastro de acesso pessoa física e jurídica;
-- Prever o futuro do score;
-- Mostrar visualmente o que compõe o score;
-
-- Se já foi negativado ou não;
-- Ajuda financeira;
-- Opção de sistema mobile;
-- Envio de e-mail com detalhes do score;
-- Envio de sms;
-- Porcentagem de probabilidade de aprovação de crédito;
-- Pontos negativos;
-- Pontos positivos;
-- Telas fáceis de manusear;
-- Telas com resultados já calculados;
-- Disponibilizar download de relatórios em PDF;
-- Média de pontos por idade;
-- Compensador de contas (mostrar ao usuário quais contas precisam de mais atenção);
-
-<h3>Para o SPC:</h3>
-
-- Mostrar quantidade de acesso;
-- Mostrar análises efetuadas de clientes que fizeram acesso;
-- Gerar relatórios estatísticos para uma visão ampla do que o sistema entrega;
-- Gerar relatório de quantidade de scores altos e baixos;
-- Filtrar clientes com baixo score;
-- Filtrar clientes com alto score;
-- Quantidade de cadastros de acesso por período;
 
 #
 
