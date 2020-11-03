@@ -47,6 +47,7 @@ Itens que serão os diferenciais da aplicação:
  * GABRIEL DE QUEIROZ CORDEIRO
  * ARTHUR CARDOSO RINALDI DA SILVA 
  * GUSTAVO RIBEIRO DOS SANTOS 
+ * PERILO CARVALHO DE OLIVEIRA JUNIOR
  * GIOVANNI GUIDACE MARASSI TANURI (Master)
 
 #
@@ -196,10 +197,6 @@ assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-
  # BACKLOG
 
 
-![Captura_de_tela_de_2020-09-25_16-14-46](/uploads/a889bd8eb61d6e422d5771247640f801/Captura_de_tela_de_2020-09-25_16-14-46.png)
-
-
-
 <h3>Lista de requisitos (BackLog):</h3>
 
 - Calcular e demonstrar baixo score;
@@ -237,29 +234,44 @@ assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-
 #
 
 # USER STORY
+
+### Cartão de User Story
+
+![Captura_de_tela_de_2020-11-03_10-20-07](/uploads/7f1aa202cc3691d204566d00916cf5ab/Captura_de_tela_de_2020-11-03_10-20-07.png)
+
+#
+
+### User Story 1
+
 ![Untitled_Diagram](/uploads/94085ee0bc7062af878b22eeeb220407/Untitled_Diagram.png)
 
+#
+
+### User Story 2
 ![img2_1_](/uploads/08fb69458dce5b181a2d96f9e95ba45a/img2_1_.png)
 
+#
+
+### User Story 3
 ![Untitled_Diagram_3_](/uploads/548b9ab94b5d43563e28650ea36be486/Untitled_Diagram_3_.png)
 
 #
 
 # WIREFRAME
 
-Tela de Login
+### Tela de Login
 
 ![Captura_de_tela_em_2020-09-27_20-28-08](/uploads/f0d0152d475010989b3c10a330010f26/Captura_de_tela_em_2020-09-27_20-28-08.png)
 
 #
 
-DashBoard
+### DashBoard
 
 
 ![Captura_de_tela_em_2020-09-27_20-27-21](/uploads/d44c55e0a3cb090ea842639d9581f99f/Captura_de_tela_em_2020-09-27_20-27-21.png)
 
 #
-Cadastro de acesso
+### Cadastro de acesso
 
 
 ![Captura_de_tela_em_2020-09-27_20-26-59](/uploads/269b7879380546c8d80610cdb840641d/Captura_de_tela_em_2020-09-27_20-26-59.png)
@@ -275,11 +287,11 @@ Cadastro de acesso
 
 # MODELAGEM DE BANCO DE DADOS
 
- * Modelo Conceitual
+ ### Modelo Conceitual
 
 ![WhatsApp_Image_2020-10-19_at_20.19.18](/uploads/942c0cdae25e731f61bbf70d64544f5b/WhatsApp_Image_2020-10-19_at_20.19.18.jpeg)
 
-* Modelo Lógico
+### Modelo Lógico
 
 
 ![WhatsApp_Image_2020-10-20_at_19.00.14](/uploads/15fc1d1f1914f30d4f20ee70bc96e728/WhatsApp_Image_2020-10-20_at_19.00.14.jpeg)
@@ -289,25 +301,20 @@ Cadastro de acesso
 # FLUXOGRAMA 
 
 
- * ### CADASTRO DE PESSOA FÍSICA
+ ### CADASTRO DE PESSOA FÍSICA
 
 ![Untitled__1_](/uploads/3dc6e9a6d03dca035a3b373b50abfaff/Untitled__1_.png)
 
 #
 
- * ### CADASTRO DE PESSOA JURÍDICA
+ ### CADASTRO DE PESSOA JURÍDICA
 
  ![Untitled__2_](/uploads/55a603700a82f9c5ac6240ec6d2a3ae9/Untitled__2_.png)
 
  #
 
- * ### LOGIN
+ ### LOGIN
 
 ![Untitled__3_](/uploads/4d96ffa0717698e3700ac27f83767739/Untitled__3_.png)
 
- #
-
- * ### BAIXAR ESTATÍSTICAS DO SISTEMA PARA O SPC EM PDF
-
-![Untitled__4_](/uploads/91bcb7777b90ee80544c38a6fa0d2211/Untitled__4_.png)
-
+ 
