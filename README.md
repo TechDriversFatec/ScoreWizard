@@ -62,21 +62,18 @@ O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da F
 
  <h2> * Entregas Sprint 0: </h2>
 
-        - Visão do Produto;
+Requisito                               | Equipe Destinada                      | Grau de Prioridade
+---------                               | ----------------                      | ------- 
+Visão do Produto                        | Scrum Master;                         |         5
+Requisitos funcionais                   | P.O.; Scrum Master; Scrum Team;       |         5
+Requisitos não funcionais               | P.O.; Scrum Master; Scrum Team;       |         5
+Diferenciais do Score Wizard            | Scrum Master;                         |         4
+Levantamento de Arquitetura             | Scrum Team;                           |         5
+User Story;                             | Scrum Master;                         |         4
+Wireframe;                              | Scrum Team;                           |         4
+Backlog;                                | P.O.; Scrum Master; Scrum Team;       |         5
+Analise completa do que compõe o Score; | Scrum Master;                         |         5
 
-        - Requisitos funcionais e não funcionais;
-
-        - Diferenciais do Score Wizard;
-
-        - Levantamento de Arquitetura;
-
-        - User Story;
-
-        - Wireframe;
-
-        - Backlog;
-
-        - Analise completa do que compõe o Score;
 
  <h2> * Entregas Sprint 1: </h2>
   
