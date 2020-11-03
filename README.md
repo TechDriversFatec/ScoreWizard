@@ -62,39 +62,32 @@ O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da F
 
  <h2> * Entregas Sprint 0: </h2>
 
-Requisito                               | Equipe Destinada                      | Grau de Prioridade
----------                               | ----------------                      | ------- 
-Visão do Produto                        | Scrum Master;                         |         5
-Requisitos funcionais                   | P.O.; Scrum Master; Scrum Team;       |         5
-Requisitos não funcionais               | P.O.; Scrum Master; Scrum Team;       |         5
-Diferenciais do Score Wizard            | Scrum Master;                         |         4
-Levantamento de Arquitetura             | Scrum Team;                           |         5
-User Story;                             | Scrum Master;                         |         4
-Wireframe;                              | Scrum Team;                           |         4
-Backlog;                                | P.O.; Scrum Master; Scrum Team;       |         5
-Analise completa do que compõe o Score; | Scrum Master;                         |         5
+Requisito                               | Equipe Destinada                      | Grau de Prioridade | Status
+---------                               | ----------------                      | :-------:          | :---:
+Visão do Produto                        | Scrum Master;                         |         5          |  Concluído
+Requisitos funcionais                   | P.O.; Scrum Master; Scrum Team;       |         5          |  Concluído
+Requisitos não funcionais               | P.O.; Scrum Master; Scrum Team;       |         5          |  Concluído
+Diferenciais do Score Wizard            | Scrum Master;                         |         4          |  Concluído
+Levantamento de Arquitetura             | Scrum Team;                           |         5          |  Concluído
+User Story                              | Scrum Master;                         |         4          |  Concluído
+Wireframe                               | Scrum Team;                           |         4          |  Concluído
+Backlog                                 | P.O.; Scrum Master; Scrum Team;       |         5          |  Concluído
+Analise completa do que compõe o Score  | Scrum Master;                         |         5          |  Concluído
 
 
  <h2> * Entregas Sprint 1: </h2>
-  
-        - BurnDown;
-
-        - Modelo conceitual (Dataset);
-
-        - Modelo lógico (Dataset);
-
-        - Tela de Login (Front-End); 
-
-        - Cadastro de acesso (Front-End); 
-
-        - DashBoard (Front-End);
-
-        - Models (Back-End);
-
-        - Fluxograma;
-
-        - Caso de Uso;
-
+ 
+Requisito                               | Equipe Destinada                      | Grau de Prioridade | Status
+--------------------------------------- | ----------------                      | :-------:          |  :--------:
+BurnDown                                | Scrum Master;                         |         5          |  Concluído
+Modelo conceitual (Dataset)             | Scrum Team;                           |         5          |  Concluído
+Modelo lógico (Dataset)                 | Scrum Team;                           |         5          |  Concluído
+Tela de Login (Front-End)               | Scrum Team;                           |         5          |  Concluído
+Cadastro de acesso (Front-End)          | Scrum Team;                           |         5          |  Concluído
+DashBoard (Front-End)                   | Scrum Team;                           |         5          |  Concluído
+Models (Back-End)                       | Scrum Team;                           |         5          |  Concluído
+Fluxograma                              | Scrum Master;                         |         4          |  Concluído
+Caso de Uso                             | Scrum Master;                         |         4          |  Concluído
 
 ###   Burndown sprint 1:
 
@@ -109,21 +102,18 @@ Analise completa do que compõe o Score; | Scrum Master;                        
 
 <h2>  * Entregas Sprint 2: </h2>
 
-        - BurnDown;
-
-        - Tela de acesso (Login) integrado ao Back-End;
-
-        - DashBoard integrado ao Back-End;
-
-        - Cadastro de acesso integrado ao Back-End;
-
-        - Tela de DashBoard para o SteakHolder (Front-End);
-
-        - Tela de acesso privativo aos SteakHolders (Front-End);
-
-        - Deploy Heroku;
-
-        - Documentação aplicação - Parte 1/2
+Requisito                                               | Equipe Destinada | Grau de Prioridade | Status
+---------------------------------------                 | ---------------- | :-------:          |  :--------:
+BurnDown                                                | Scrum Master;    |         5          |  Em andamento
+Tela de acesso (Login) integrado ao Back-End            | Scrum Team;      |         5          |  Em andamento
+DashBoard integrado ao Back-End                         | Scrum Team;      |         5          |  Em andamento
+Cadastro de acesso integrado ao Back-End                | Scrum Team;      |         5          |  Em andamento
+Tela de DashBoard para o SteakHolder (Front-End)        | Scrum Team;      |         1          |  Suspenso
+Tela de acesso privativo aos SteakHolders (Front-End)   | Scrum Team;      |         1          |  Suspenso
+Deploy Heroku                                           | Scrum Team;      |         4          |  Em andamento
+Documentação aplicação - Parte 1/2                      | Scrum Master;    |         3          |  Em andamento
+Cálculo Score                                           | Scrum Team;      |         2          |  Em andamento
+Importar dados do dataset para aplicação                | Scrum Team;      |         5          |  Em andamento
 
 <h2>  * Entregas Sprint 3 (Final): </h2>
 
