@@ -105,15 +105,17 @@ Caso de Uso                             | Scrum Master;                         
 Requisito                                               | Equipe Destinada | Grau de Prioridade | Status
 ---------------------------------------                 | ---------------- | :-------:          |  :--------:
 BurnDown                                                | Scrum Master;    |         5          |  Em andamento
-Tela de acesso (Login) integrado ao Back-End            | Scrum Team;      |         5          |  Em andamento
-DashBoard integrado ao Back-End                         | Scrum Team;      |         5          |  Em andamento
-Cadastro de acesso integrado ao Back-End                | Scrum Team;      |         5          |  Em andamento
+Tela de acesso (Login) integrado ao Back-End            | Scrum Team;      |         5          |  Concluído
+DashBoard integrado ao Back-End                         | Scrum Team;      |         5          |  Concluído
+Cadastro de acesso integrado ao Back-End                | Scrum Team;      |         5          |  Concluído
 Tela de DashBoard para o SteakHolder (Front-End)        | Scrum Team;      |         1          |  Suspenso
 Tela de acesso privativo aos SteakHolders (Front-End)   | Scrum Team;      |         1          |  Suspenso
 Deploy Heroku                                           | Scrum Team;      |         4          |  Em andamento
 Documentação aplicação - Parte 1/2                      | Scrum Master;    |         3          |  Em andamento
-Cálculo Score                                           | Scrum Team;      |         2          |  Em andamento
+Cálculo Score                                           | Scrum Team;      |         2          |  Concluído
 Importar dados do dataset para aplicação                | Scrum Team;      |         5          |  Em andamento
+
+#
 
 <h2>  * Entregas Sprint 3 (Final): </h2>
 
