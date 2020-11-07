@@ -129,12 +129,6 @@ Documentação aplicação - Parte 2/2                              | Scrum Mast
 
 #
 
- # ENTENDA O QUE COMPÕE O CÁLCULO DO SCORE:
-
-
-<h1>[Clique aqui](https://www.notion.so/Entenda-o-que-comp-e-o-c-lculo-do-Score-1348e1d22dbb49098a775e9d973c86e4)</h1>
-
-#
 
 
 # REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS
