@@ -17,6 +17,8 @@ import lombok.Setter;
 public class PessoaFisica {
 	@Id
 	private int docCli;
+	
+	private String nome;
 
 	@OneToMany(mappedBy = "pessoaFisica")
 	private List<Movimento> movimentos;
@@ -31,9 +33,10 @@ public class PessoaFisica {
 	
 	public PessoaFisica(){}
 	
-	public PessoaFisica(int docCli, char sexo, Date dataNasc, String cidade, String estado) {
+	public PessoaFisica(int docCli,String nome, char sexo, Date dataNasc, String cidade, String estado) {
 		super();
 		this.docCli = docCli;
+		this.nome = nome;
 		this.sexo = sexo;
 		this.dataNasc = dataNasc;
 		this.cidade = cidade;
