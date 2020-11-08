@@ -25,14 +25,14 @@ public class IndexController {
 	PessoaFisicaController pf = new PessoaFisicaController();
 	
 	@PostMapping(value = "/submitFunc")
-	public ResponseEntity<Object> salvarFunc(@RequestBody final String funcData) throws IOException {
+	public ResponseEntity<Object> salvarFunc(@RequestBody final String funcData) throws IOException, JSONException {
 				
 		System.out.println("Funcionou!");
 		System.out.println(funcData);
 		
 		final JSONObject obj = new JSONObject(funcData);
 		
-		pf.addFunc(obj.getString("label"));
+		// pf.addFunc(obj.getString("label"));
 				
 		return new ResponseEntity<Object>(funcData, HttpStatus.OK);
 	}

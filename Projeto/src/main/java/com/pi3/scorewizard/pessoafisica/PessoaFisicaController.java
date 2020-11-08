@@ -24,14 +24,14 @@ public class PessoaFisicaController {
                                             @RequestParam String cidade,
                                             @RequestParam String estado) {
 
-      PessoaFisica pesf = new PessoaFisica(docCli, sexo, date, cidade, estado);
+      PessoaFisica pesf = new PessoaFisica(docCli, "", sexo, date, cidade, estado);
       
-      PessoaFisicaRepository.save(pesf);
+      pessoafisicarepository.save(pesf);
       return "Saved";
     }
 	
     @GetMapping(path="/getPessoaFisica")
     public @ResponseBody ArrayList<PessoaFisica> getAllPessoaFisica() {
-        return PessoaFisicaRepository.findAll();
+        return pessoafisicarepository.findAll();
     }
 }
