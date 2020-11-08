@@ -1,7 +1,6 @@
 package com.pi3.scorewizard.pessoafisica;
 
 import java.util.ArrayList;
-import java.util.Date;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,20 +17,20 @@ public class PessoaFisicaController {
 	private PessoaFisicaRepository pessoafisicarepository;
 	
 	@PostMapping(path="/addpessoaf")
-    public @ResponseBody String addPessoaFisica (@RequestParam int docCli,
-                                            @RequestParam char sexo,
-                                            @RequestParam Date date,
+    public @ResponseBody String addPessoaFisica (@RequestParam String docCli,
+                                            @RequestParam String sexo,
+                                            @RequestParam int date,
                                             @RequestParam String cidade,
                                             @RequestParam String estado) {
 
-      PessoaFisica pesf = new PessoaFisica(docCli, sexo, date, cidade, estado);
+      PessoaFisica pesf = new PessoaFisica(docCli, "", sexo, date, cidade, estado);
       
-      PessoaFisicaRepository.save(pesf);
+      pessoafisicarepository.save(pesf);
       return "Saved";
     }
 	
     @GetMapping(path="/getPessoaFisica")
     public @ResponseBody ArrayList<PessoaFisica> getAllPessoaFisica() {
-        return PessoaFisicaRepository.findAll();
+        return pessoafisicarepository.findAll();
     }
 }

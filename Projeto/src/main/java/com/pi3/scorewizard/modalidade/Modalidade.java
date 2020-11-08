@@ -14,8 +14,9 @@ import lombok.Setter;
 @Setter
 public class Modalidade {
 	@Id
-	private int id;
-	private String descModalidade;
+	private String id;
+	
+	private String descricao;
 
 	@OneToMany(mappedBy = "modalidade")
 	private List<Operacao> operacoes;
@@ -25,10 +26,10 @@ public class Modalidade {
 	
 	public Modalidade(){}
 	
-	public Modalidade(int id, String descModalidade) {
+	public Modalidade(String cod, String descModalidade) {
 		super();
-		this.id = id;
-		this.descModalidade = descModalidade;
+		this.id = cod;
+		this.descricao = descModalidade;
 	}
 	
 	

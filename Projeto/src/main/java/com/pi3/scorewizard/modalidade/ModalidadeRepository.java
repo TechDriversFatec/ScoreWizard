@@ -1,7 +1,9 @@
 package com.pi3.scorewizard.modalidade;
 
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
-public interface ModalidadeRepository extends CrudRepository<Modalidade, Integer> {
+@Repository
+public interface ModalidadeRepository extends CrudRepository<Modalidade, String> {
     
 }

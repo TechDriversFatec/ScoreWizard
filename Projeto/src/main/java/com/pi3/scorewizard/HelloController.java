@@ -1,6 +1,5 @@
 package com.pi3.scorewizard;
 
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
