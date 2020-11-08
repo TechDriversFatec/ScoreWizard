@@ -1,7 +1,6 @@
 package com.pi3.scorewizard.pagamento;
 
 import java.util.Date;
-import java.util.Optional;
 
 import javax.persistence.*;
 

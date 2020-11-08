@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-import com.pi3.scorewizard.fonte.Fonte;
 import com.pi3.scorewizard.fonte.FonteRepository;
 import com.pi3.scorewizard.modalidade.Modalidade;
 import com.pi3.scorewizard.modalidade.ModalidadeRepository;

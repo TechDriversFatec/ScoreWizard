@@ -47,6 +47,7 @@ Itens que serão os diferenciais da aplicação:
  * GABRIEL DE QUEIROZ CORDEIRO
  * ARTHUR CARDOSO RINALDI DA SILVA 
  * GUSTAVO RIBEIRO DOS SANTOS 
+ * PERILO CARVALHO DE OLIVEIRA JUNIOR
  * GIOVANNI GUIDACE MARASSI TANURI (Master)
 
 #
@@ -61,42 +62,32 @@ O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da F
 
  <h2> * Entregas Sprint 0: </h2>
 
-        - Visão do Produto;
+Requisito                               | Equipe Destinada                      | Grau de Prioridade | Status
+---------                               | ----------------                      | :-------:          | :---:
+Visão do Produto                        | Scrum Master;                         |         5          |  Concluído
+Requisitos funcionais                   | P.O.; Scrum Master; Scrum Team;       |         5          |  Concluído
+Requisitos não funcionais               | P.O.; Scrum Master; Scrum Team;       |         5          |  Concluído
+Diferenciais do Score Wizard            | Scrum Master;                         |         4          |  Concluído
+Levantamento de Arquitetura             | Scrum Team;                           |         5          |  Concluído
+User Story                              | Scrum Master;                         |         4          |  Concluído
+Wireframe                               | Scrum Team;                           |         4          |  Concluído
+Backlog                                 | P.O.; Scrum Master; Scrum Team;       |         5          |  Concluído
+Analise completa do que compõe o Score  | Scrum Master;                         |         5          |  Concluído
 
-        - Requisitos funcionais e não funcionais;
-
-        - Diferenciais do Score Wizard;
-
-        - Levantamento de Arquitetura;
-
-        - User Story;
-
-        - Wireframe;
-
-        - Backlog;
-
-        - Analise completa do que compõe o Score;
 
  <h2> * Entregas Sprint 1: </h2>
-  
-        - BurnDown;
-
-        - Modelo conceitual (Dataset);
-
-        - Modelo lógico (Dataset);
-
-        - Tela de Login (Front-End); 
-
-        - Cadastro de acesso (Front-End); 
-
-        - DashBoard (Front-End);
-
-        - Models (Back-End);
-
-        - Fluxograma;
-
-        - Caso de Uso;
-
+ 
+Requisito                               | Equipe Destinada                      | Grau de Prioridade | Status
+--------------------------------------- | ----------------                      | :-------:          |  :--------:
+BurnDown                                | Scrum Master;                         |         5          |  Concluído
+Modelo conceitual (Dataset)             | Scrum Team;                           |         5          |  Concluído
+Modelo lógico (Dataset)                 | Scrum Team;                           |         5          |  Concluído
+Tela de Login (Front-End)               | Scrum Team;                           |         5          |  Concluído
+Cadastro de acesso (Front-End)          | Scrum Team;                           |         5          |  Concluído
+DashBoard (Front-End)                   | Scrum Team;                           |         5          |  Concluído
+Models (Back-End)                       | Scrum Team;                           |         5          |  Concluído
+Fluxograma                              | Scrum Master;                         |         4          |  Concluído
+Caso de Uso                             | Scrum Master;                         |         4          |  Concluído
 
 ###   Burndown sprint 1:
 
@@ -111,42 +102,33 @@ O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da F
 
 <h2>  * Entregas Sprint 2: </h2>
 
-        - BurnDown;
+Requisito                                               | Equipe Destinada | Grau de Prioridade | Status
+---------------------------------------                 | ---------------- | :-------:          |  :--------:
+BurnDown                                                | Scrum Master;    |         5          |  Em andamento
+Tela de acesso (Login) integrado ao Back-End            | Scrum Team;      |         5          |  Concluído
+DashBoard integrado ao Back-End                         | Scrum Team;      |         5          |  Concluído
+Cadastro de acesso integrado ao Back-End                | Scrum Team;      |         5          |  Concluído
+Tela de DashBoard para o SteakHolder (Front-End)        | Scrum Team;      |         1          |  Suspenso
+Tela de acesso privativo aos SteakHolders (Front-End)   | Scrum Team;      |         1          |  Suspenso
+Deploy Heroku                                           | Scrum Team;      |         4          |  Em andamento
+Documentação aplicação - Parte 1/2                      | Scrum Master;    |         3          |  Em andamento
+Cálculo Score                                           | Scrum Team;      |         2          |  Concluído
+Importar dados do dataset para aplicação                | Scrum Team;      |         5          |  Em andamento
 
-        - Tela de acesso (Login) integrado ao Back-End;
-
-        - DashBoard integrado ao Back-End;
-
-        - Cadastro de acesso integrado ao Back-End;
-
-        - Tela de DashBoard para o SteakHolder (Front-End);
-
-        - Tela de acesso privativo aos SteakHolders (Front-End);
-
-        - Deploy Heroku;
-
-        - Documentação aplicação - Parte 1/2
+#
 
 <h2>  * Entregas Sprint 3 (Final): </h2>
 
-        - BurnDown;
-
-        - Tela de DashBoard dos SteakHolders integrada ao Back-End;
-
-        - Tela de acesso privativo dos SteakHolders integrada ao Back-End;
-
-        - Deploy Heroku;
-        
-        - Documentação aplicação - Parte 2/2
+Requisito                                                       | Equipe Destinada | Grau de Prioridade | Status
+---------------------------------------                         | ---------------- | :-------:          |  :--------:
+BurnDown                                                        | Scrum Master;    |         5          |  Em aberto
+Tela de DashBoard dos SteakHolders integrada ao Back-End        | Scrum Team;      |         1          |  Em aberto
+Tela de acesso privativo dos SteakHolders integrada ao Back-End | Scrum Team;      |         1          |  Em aberto
+Deploy Heroku                                                   | Scrum Team;      |         5          |  Em aberto
+Documentação aplicação - Parte 2/2                              | Scrum Master;    |         5          |  Em aberto
 
 #
 
- # ENTENDA O QUE COMPÕE O CÁLCULO DO SCORE:
-
-
-<h1>[Clique aqui](https://www.notion.so/Entenda-o-que-comp-e-o-c-lculo-do-Score-1348e1d22dbb49098a775e9d973c86e4)</h1>
-
-#
 
 
 # REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS
@@ -193,73 +175,45 @@ assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-
 
 #
 
- # BACKLOG
+# USER STORY
 
+### Cartão de User Story
 
-![Captura_de_tela_de_2020-09-25_16-14-46](/uploads/a889bd8eb61d6e422d5771247640f801/Captura_de_tela_de_2020-09-25_16-14-46.png)
-
-
-
-<h3>Lista de requisitos (BackLog):</h3>
-
-- Calcular e demonstrar baixo score;
-- Prever o que poderia melhorar o score;
-- Informar boas práticas de forma dinâmica para obter um bom score;
-- Decisão de escolher se aceita ou não Score;
-- Cadastro de acesso pessoa física e jurídica;
-- Prever o futuro do score;
-- Mostrar visualmente o que compõe o score;
-
-- Se já foi negativado ou não;
-- Ajuda financeira;
-- Opção de sistema mobile;
-- Envio de e-mail com detalhes do score;
-- Envio de sms;
-- Porcentagem de probabilidade de aprovação de crédito;
-- Pontos negativos;
-- Pontos positivos;
-- Telas fáceis de manusear;
-- Telas com resultados já calculados;
-- Disponibilizar download de relatórios em PDF;
-- Média de pontos por idade;
-- Compensador de contas (mostrar ao usuário quais contas precisam de mais atenção);
-
-<h3>Para o SPC:</h3>
-
-- Mostrar quantidade de acesso;
-- Mostrar análises efetuadas de clientes que fizeram acesso;
-- Gerar relatórios estatísticos para uma visão ampla do que o sistema entrega;
-- Gerar relatório de quantidade de scores altos e baixos;
-- Filtrar clientes com baixo score;
-- Filtrar clientes com alto score;
-- Quantidade de cadastros de acesso por período;
+![Captura_de_tela_de_2020-11-03_10-20-07](/uploads/7f1aa202cc3691d204566d00916cf5ab/Captura_de_tela_de_2020-11-03_10-20-07.png)
 
 #
 
-# USER STORY
+### User Story 1
+
 ![Untitled_Diagram](/uploads/94085ee0bc7062af878b22eeeb220407/Untitled_Diagram.png)
 
+#
+
+### User Story 2
 ![img2_1_](/uploads/08fb69458dce5b181a2d96f9e95ba45a/img2_1_.png)
 
+#
+
+### User Story 3
 ![Untitled_Diagram_3_](/uploads/548b9ab94b5d43563e28650ea36be486/Untitled_Diagram_3_.png)
 
 #
 
 # WIREFRAME
 
-Tela de Login
+### Tela de Login
 
 ![Captura_de_tela_em_2020-09-27_20-28-08](/uploads/f0d0152d475010989b3c10a330010f26/Captura_de_tela_em_2020-09-27_20-28-08.png)
 
 #
 
-DashBoard
+### DashBoard
 
 
 ![Captura_de_tela_em_2020-09-27_20-27-21](/uploads/d44c55e0a3cb090ea842639d9581f99f/Captura_de_tela_em_2020-09-27_20-27-21.png)
 
 #
-Cadastro de acesso
+### Cadastro de acesso
 
 
 ![Captura_de_tela_em_2020-09-27_20-26-59](/uploads/269b7879380546c8d80610cdb840641d/Captura_de_tela_em_2020-09-27_20-26-59.png)
@@ -275,11 +229,11 @@ Cadastro de acesso
 
 # MODELAGEM DE BANCO DE DADOS
 
- * Modelo Conceitual
+ ### Modelo Conceitual
 
 ![WhatsApp_Image_2020-10-19_at_20.19.18](/uploads/942c0cdae25e731f61bbf70d64544f5b/WhatsApp_Image_2020-10-19_at_20.19.18.jpeg)
 
-* Modelo Lógico
+### Modelo Lógico
 
 
 ![WhatsApp_Image_2020-10-20_at_19.00.14](/uploads/15fc1d1f1914f30d4f20ee70bc96e728/WhatsApp_Image_2020-10-20_at_19.00.14.jpeg)
@@ -289,25 +243,20 @@ Cadastro de acesso
 # FLUXOGRAMA 
 
 
- * ### CADASTRO DE PESSOA FÍSICA
+ ### CADASTRO DE PESSOA FÍSICA
 
 ![Untitled__1_](/uploads/3dc6e9a6d03dca035a3b373b50abfaff/Untitled__1_.png)
 
 #
 
- * ### CADASTRO DE PESSOA JURÍDICA
+ ### CADASTRO DE PESSOA JURÍDICA
 
  ![Untitled__2_](/uploads/55a603700a82f9c5ac6240ec6d2a3ae9/Untitled__2_.png)
 
  #
 
- * ### LOGIN
+ ### LOGIN
 
 ![Untitled__3_](/uploads/4d96ffa0717698e3700ac27f83767739/Untitled__3_.png)
 
- #
-
- * ### BAIXAR ESTATÍSTICAS DO SISTEMA PARA O SPC EM PDF
-
-![Untitled__4_](/uploads/91bcb7777b90ee80544c38a6fa0d2211/Untitled__4_.png)
-
+ 
