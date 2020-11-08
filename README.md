@@ -58,6 +58,14 @@ O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da F
 
 #
 
+# Acesse o Score Wizard!!
+
+![images](/uploads/552d28309f33b977f7b14aa982c8816f/images.png) https://wizardscore.herokuapp.com/
+
+
+
+#
+
 # CRONOGRAMA DE ENTREGA - SCORE WIZARD
 
  <h2> * Entregas Sprint 0: </h2>
