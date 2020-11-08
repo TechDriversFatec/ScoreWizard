@@ -15,8 +15,10 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Fonte {
+
 	@Id
 	private int id;
+
 	private String nomeFonte;
 
 	@OneToMany(mappedBy = "fonte")
@@ -27,13 +29,31 @@ public class Fonte {
 
 	@OneToMany(mappedBy = "fonte")
 	private List<Pagamento> pagamentos;
-	
-	public Fonte() {}
-	
+
+	public Fonte() {
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public String getNomeFonte() {
+		return nomeFonte;
+	}
+
+	public void setNomeFonte(String nomeFonte) {
+		this.nomeFonte = nomeFonte;
+	}
+
+	public Fonte(String nomeFonte) {
+		super();
+		this.setNomeFonte(nomeFonte);
+	}
+
 	public Fonte(int id, String nomeFonte) {
 		super();
 		this.id = id;
-		this.nomeFonte = nomeFonte;
+		this.setNomeFonte(nomeFonte);
 	}
 	
 	

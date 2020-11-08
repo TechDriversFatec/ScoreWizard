@@ -7,6 +7,8 @@ import javax.persistence.*;
 import com.pi3.scorewizard.fonte.Fonte;
 import com.pi3.scorewizard.pessoafisica.PessoaFisica;
 
+import org.springframework.lang.Nullable;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -18,14 +20,16 @@ public class Movimento {
 	private int id;
 
 	@ManyToOne
-    @JoinColumn(name="pessoaFisica_docCli")
+    @JoinColumn(name="pessoaFisica_documento")
 	private PessoaFisica pessoaFisica;
 
 	@ManyToOne
     @JoinColumn(name="fonte_id")
 	private Fonte fonte;
 
+	@Nullable
 	private Date dataVencimento;
+	
 	private int qtdParcelasAVencer;
 	private int qtdParcelasAPagar;
 	private Double valorFatura;
@@ -34,15 +38,17 @@ public class Movimento {
 	private String movimentoAtual;
 	private String periodo;
 	private String tipoCliente;
-	private int numUnc;
+	private String numUnc;
 	
 	public Movimento(){}
 	
-	public Movimento(int id, Date dataVencimento, int qtdParcelasAVencer, int qtdParcelasAPagar,
+	public Movimento(int id, PessoaFisica pessoaFisica, Fonte fonte, Date dataVencimento, int qtdParcelasAVencer, int qtdParcelasAPagar,
 			Double valorFatura, Double valorMinimoFatura, Double valorParcela, String movimentoAtual,
-			String periodo, String tipoCliente, int numUnc) {
+			String periodo, String tipoCliente, String numUnc) {
 		super();
 		this.id = id;
+		this.pessoaFisica = pessoaFisica;
+		this.fonte = fonte;
 		this.dataVencimento = dataVencimento;
 		this.qtdParcelasAVencer = qtdParcelasAVencer;
 		this.qtdParcelasAPagar = qtdParcelasAPagar;
