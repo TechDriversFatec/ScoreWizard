@@ -123,6 +123,12 @@ Documentação aplicação - Parte 1/2                      | Scrum Master;    |
 Cálculo Score                                           | Scrum Team;      |         2          |  Concluído
 Importar dados do dataset para aplicação                | Scrum Team;      |         5          |  Concluído
 
+
+###   Burndown sprint 2:
+
+![Captura_de_tela_de_2020-11-09_20-13-36](/uploads/b0201db55edc50182e17a325cd93d24d/Captura_de_tela_de_2020-11-09_20-13-36.png)
+
+
 #
 
 <h2>  * Entregas Sprint 3 (Final): </h2>
