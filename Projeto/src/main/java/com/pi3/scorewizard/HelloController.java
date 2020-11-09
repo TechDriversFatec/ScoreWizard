@@ -5,14 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HelloController {
-	
-	@RequestMapping("/cadastro")
-	public String cadastro() {
+
+	@RequestMapping("/")
+	public String index() {
 		return "cadastro";
 	}
-	
-	@RequestMapping("/")
-	public String login() {
-		return "index";
-	}
+
 }
