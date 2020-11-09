@@ -7,29 +7,52 @@ import org.springframework.boot.configurationprocessor.json.JSONException;
 import org.springframework.boot.configurationprocessor.json.JSONObject;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.View;
 
+import com.pi3.scorewizard.login.Login;
+import com.pi3.scorewizard.pessoafisica.PessoaFisica;
 import com.pi3.scorewizard.pessoafisica.PessoaFisicaController;
 import java.io.IOException;
+import java.util.ArrayList;
 
 @RestController
-// @Controller
 public class IndexController {
 	
 	@Autowired
 	PessoaFisicaController pf = new PessoaFisicaController();
 	
-	// @PostMapping(value = "/submitFunc")
-	// public ResponseEntity<Object> salvarFunc(@RequestBody final String funcData) throws IOException, JSONException {
+	HelloController cont = new HelloController();
+	
+	@PostMapping(value = "/submitFunc")
+	public ResponseEntity<Object> salvarFunc(@RequestBody final String funcData) throws IOException, JSONException {
 				
-	// 	System.out.println("Funcionou!");
-	// 	System.out.println(funcData);
+	 	System.out.println("Funcionou!");
+	 	System.out.println(funcData);
 		
-	// 	final JSONObject obj = new JSONObject(funcData);
-		
-	// 	pf.addFunc(obj.getString("label"));
-				
-	// 	return new ResponseEntity<Object>(funcData, HttpStatus.OK);
-	// }
+	 	final JSONObject obj = new JSONObject(funcData);
+	 	
+	 	ArrayList<PessoaFisica> pessoaf = new ArrayList<>();
+	 	pessoaf.addAll(pf.getAllPessoaFisica());
+	 	
+	 	int i = 1;
+	 	while( i <= pessoaf.size()) {
+	 		if(i == pessoaf.size()) {
+		  		pf.addpessoaf(obj.getString("docCli"),
+						obj.getString("sexo"), 
+						obj.getInt("anoNascimento"), 
+						obj.getString("cidade"), 
+						obj.getString("estado"));
+		  		  break;
+		    	}
+		  	  if(obj.getString("docCli").equals(pessoaf.get(i).getDocumento())) {
+		  		  break;
+		  	  }  
+		  	  i++;
+		}
+	 	return new ResponseEntity<Object>(funcData, HttpStatus.OK);
+	}
 
 }
