@@ -3,11 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+   	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
+	<script>
+		$(document).ready(function(){
+			$('form').submit(function(e){    
+				
+				e.preventDefault();
+				
+				var docCli = $('#docCli').val().trim();
+				
+				var senha = $('#senha').val().trim();
 
+				var LoginData = JSON.stringify({docCli : docCli, senha : senha});
+				
+				alert(LoginData)
+				
+				jQuery.ajax({
+					url : "/Login",
+					type : "POST",
+					data : LoginData,
+					dataType : "json",
+					contentType : "application/json; charset=utf-8",
+					success : function() {
+						alert("Save Success!")
+					}
+				});
+				
+			});
+		});
+	</script>
     <title>Login</title>
 </head>
 <body>
@@ -23,11 +50,11 @@
                 <form>
                     <div class="form-group">
                         <label for="InputDoc">CPF ou CNPJ:</label>
-                        <input type="Doc" class="form-control form-style mb-5" id="InputDoc" aria-describedby="Doc" >
+                        <input type="Doc" name="docCli" class="form-control form-style mb-5" id="docCli" aria-describedby="Doc" >
                     </div>
                     <div class="form-group">
                         <label for="InputSenha">Senha:</label>
-                        <input type="password" class="form-control form-style" id="InputSenha" aria-describedby="Senha" >
+                        <input type="password" name="senha" class="form-control form-style" id="senha" aria-describedby="Senha" >
                     </div>
                     <button type="submit" class="btn mt-4 btn-custom">Entrar</button>
                     <div>
@@ -40,8 +67,6 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 

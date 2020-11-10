@@ -28,8 +28,10 @@
 				var cidade = $('#cidade').val().trim();
 				
 				var estado = $('#estado').val().trim();
+				
+				var senha = $('#senha').val().trim();
 
-				var funcData = JSON.stringify({nome : nome, docCli : docCli, sexo : sexo, anoNascimento : anoNascimento, cidade : cidade, estado : estado});
+				var funcData = JSON.stringify({nome : nome, docCli : docCli, sexo : sexo, anoNascimento : anoNascimento, cidade : cidade, estado : estado, senha : senha});
 				
 				alert(funcData)
 				
@@ -84,7 +86,11 @@
                     <label for="InputEstado">Estado:</label>
                     <input type="tel" required="required" id="estado" name="estado" style="width: 100%" value="" />
                 </div>
-                <button type="submit" onclick="navegarPagina()" class="btn btn-custom m-4"><a href="/index"></a>Cadastrar</button>
+                <div class="form-group col-4">
+                    <label for="InputEstado">Senha:</label>
+                    <input type="password" required="required" id="senha" name="senha" style="width: 100%" value="" />
+                </div>
+                <button type="submit" class="btn btn-custom m-4">Cadastrar</button>
             </form>
         </div>
     </div>
