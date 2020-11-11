@@ -6,18 +6,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloController {
 	
-	@RequestMapping("/dashboard")
-	public String dashboard() {
-		return "dashboard";
-	}
-	
 	@RequestMapping("/cadastro")
 	public String cadastro() {
 		return "cadastro";
 	}
 	
-	@RequestMapping("/")
+	@RequestMapping("/index")
 	public String login() {
 		return "index";
 	}
+	
+	@RequestMapping("/indexerror")
+	public String loginerror() {
+		return "indexerror";
+	}
+	
 }
