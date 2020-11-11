@@ -19,13 +19,14 @@ public class PessoaFisicaController {
 	
 	@PostMapping(path="/addpessoaf")
     public @ResponseBody String addpessoaf (@RequestParam String docCli,
-    										@RequestParam String senha,
+    										@RequestParam String nome,
                                             @RequestParam String sexo,
                                             @RequestParam int date,
                                             @RequestParam String cidade,
-                                            @RequestParam String estado) {
+                                            @RequestParam String estado, 
+                                            @RequestParam String senha) {
 
-      PessoaFisica pesf = new PessoaFisica(docCli, senha, sexo, date, cidade, estado); 
+      PessoaFisica pesf = new PessoaFisica(docCli, nome, sexo, date, cidade, estado, senha); 
 
       pessoafisicarepository.save(pesf);
       

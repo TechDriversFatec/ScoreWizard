@@ -36,39 +36,15 @@ public class IndexController {
 	PessoaFisicaController pf = new PessoaFisicaController();
 	
 	HelloController cont = new HelloController();
-	
-	@PostMapping(value = "/submitFunc")
-	public ResponseEntity<Object> salvarFunc(@RequestBody final String funcData) throws IOException, JSONException {
-				
-	 	System.out.println("Funcionou!");
-	 	System.out.println(funcData);
-		
-	 	final JSONObject obj = new JSONObject(funcData);
-	 	
-	 	ArrayList<PessoaFisica> pessoaf = new ArrayList<>();
-	 	pessoaf.addAll(pf.getAllPessoaFisica());
-	 	
-	 	int i = 1;
-	 	while( i <= pessoaf.size()) {
-	 		if(i == pessoaf.size()) {
-		  		pf.addpessoaf(obj.getString("docCli"),
-		  				obj.getString("senha"),
-						obj.getString("sexo"), 
-						obj.getInt("anoNascimento"), 
-						obj.getString("cidade"), 
-						obj.getString("estado"));
-		  		  break;
-		    	}
-		  	  if(obj.getString("docCli").equals(pessoaf.get(i).getDocumento())) {
-		  		  break;
-		  	  }  
-		  	  i++;
-		}
-	 	return new ResponseEntity<Object>(funcData, HttpStatus.OK);
-	}
 	  
 	  @GetMapping("/index")
 	  public String LoginForm(Model model) {
+	    model.addAttribute("index", new Login());
+	    return "index";
+	  }
+	  
+	  @GetMapping("/indexerror")
+	  public String LoginErrorForm(Model model) {
 	    model.addAttribute("index", new Login());
 	    return "index";
 	  }
@@ -86,7 +62,7 @@ public class IndexController {
 			  		  return "dashboard";
 			  	  }
 			  	  if(i == (pessoaf.size() - 1)) {
-			  		  return "index";
+			  		  return "indexerror";
 			  	  }
 			  	  i++;
 			}
@@ -94,6 +70,38 @@ public class IndexController {
 	    return "/index";	  
 	  }
 	  
-	  
+	  @GetMapping("/cadastro")
+	  public String CadastroForm(Model model) {
+	    model.addAttribute("cadastro", new PessoaFisica());
+	    return "cadastro";
+	  }
 
+	  @PostMapping("/cadastro")
+	  public String CadastroSubmit(@ModelAttribute PessoaFisica cadastro, Model model) {
+		 	
+		 	System.out.println("Funcionou!");
+		 	
+		 	ArrayList<PessoaFisica> pessoaf = new ArrayList<>();
+		 	pessoaf.addAll(pf.getAllPessoaFisica());
+		 	
+		 	int i = 1;
+		 	while( i <= pessoaf.size()) {
+		 		if(i == pessoaf.size()) {
+			  		pf.addpessoaf(cadastro.getDocumento(),
+			  				cadastro.getNome(),
+							cadastro.getSexo(), 
+							cadastro.getAnoNascimento(), 
+							cadastro.getCidade(), 
+							cadastro.getEstado(),
+							cadastro.getSenha());
+			  		return "dashboard";
+			    	}
+			  	  if(cadastro.getDocumento().equals(pessoaf.get(i).getDocumento())) {
+			  		  return "index";
+			  	  }  
+			  	  i++;
+			}
+
+	    return null;	  
+	  }
 }
