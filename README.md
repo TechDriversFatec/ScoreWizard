@@ -136,11 +136,11 @@ Importar dados do dataset para aplicação                | Scrum Team;      |  
 Requisito                                                       | Equipe Destinada | Grau de Prioridade | Status
 ---------------------------------------                         | ---------------- | :-------:          |  :--------:
 BurnDown                                                        | Scrum Master;    |         5          |  Em aberto
-Tela de DashBoard dos SteakHolders integrada ao Back-End        | Scrum Team;      |         1          |  Em aberto
-Tela de acesso privativo dos SteakHolders integrada ao Back-End | Scrum Team;      |         1          |  Em aberto
-Deploy Heroku                                                   | Scrum Team;      |         5          |  Em aberto
-Documentação aplicação - Parte 2/2                              | Scrum Master;    |         5          |  Em aberto
-
+Simulador de score com base em metas;                           | Scrum Team;      |         5          |  Em aberto
+Análise de objetivo selecionado pelo usuário;                   | Scrum Team;      |         5          |  Em aberto
+Sistema de gameficação com a conclusão de metas;                | Scrum Team;      |         5          |  Em aberto
+Documentação aplicação - Parte 2/2                              | Scrum Master;    |         3          |  Em aberto
+Atualização deploy Heroku                                       | Scrum Team;      |         5          |  Em aberto
 #
 
 
