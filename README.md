@@ -129,6 +129,9 @@ Importar dados do dataset para aplicação                | Scrum Team;      |  
 ![Captura_de_tela_de_2020-11-09_20-13-36](/uploads/b0201db55edc50182e17a325cd93d24d/Captura_de_tela_de_2020-11-09_20-13-36.png)
 
 
+
+### [Vídeo  Sprint 2](https://youtu.be/ubwTZHn9iME "Vídeo Sprint 2:")
+
 #
 
 <h2>  * Entregas Sprint 3 (Final): </h2>
