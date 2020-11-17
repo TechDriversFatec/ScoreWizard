@@ -144,9 +144,9 @@ Análise de objetivo selecionado pelo usuário;                   | Scrum Team; 
 Sistema de gameficação com a conclusão de metas;                | Scrum Team;      |         5          |  Em aberto
 Documentação aplicação - Parte 2/2                              | Scrum Master;    |         3          |  Em aberto
 Atualização deploy Heroku                                       | Scrum Team;      |         5          |  Em aberto
+Criação Front-End (Tela Principal)                              | Scrum Team;      |         5          |  Em aberto
+
 #
-
-
 
 # REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS
 
