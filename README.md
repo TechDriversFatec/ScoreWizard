@@ -58,6 +58,14 @@ O SPC, em parceria com os alunos do 3º semestre do curso de Banco de Dados da F
 
 #
 
+# Acesse o Score Wizard!!
+
+![images](/uploads/552d28309f33b977f7b14aa982c8816f/images.png) https://scorewizardteste.herokuapp.com/index
+
+
+
+#
+
 # CRONOGRAMA DE ENTREGA - SCORE WIZARD
 
  <h2> * Entregas Sprint 0: </h2>
@@ -104,16 +112,25 @@ Caso de Uso                             | Scrum Master;                         
 
 Requisito                                               | Equipe Destinada | Grau de Prioridade | Status
 ---------------------------------------                 | ---------------- | :-------:          |  :--------:
-BurnDown                                                | Scrum Master;    |         5          |  Em andamento
+BurnDown                                                | Scrum Master;    |         5          |  Concluído
 Tela de acesso (Login) integrado ao Back-End            | Scrum Team;      |         5          |  Concluído
 DashBoard integrado ao Back-End                         | Scrum Team;      |         5          |  Concluído
 Cadastro de acesso integrado ao Back-End                | Scrum Team;      |         5          |  Concluído
 Tela de DashBoard para o SteakHolder (Front-End)        | Scrum Team;      |         1          |  Suspenso
 Tela de acesso privativo aos SteakHolders (Front-End)   | Scrum Team;      |         1          |  Suspenso
-Deploy Heroku                                           | Scrum Team;      |         4          |  Em andamento
-Documentação aplicação - Parte 1/2                      | Scrum Master;    |         3          |  Em andamento
+Deploy Heroku                                           | Scrum Team;      |         4          |  Concluído
+Documentação aplicação - Parte 1/2                      | Scrum Master;    |         3          |  Concluído
 Cálculo Score                                           | Scrum Team;      |         2          |  Concluído
-Importar dados do dataset para aplicação                | Scrum Team;      |         5          |  Em andamento
+Importar dados do dataset para aplicação                | Scrum Team;      |         5          |  Concluído
+
+
+###   Burndown sprint 2:
+
+![Captura_de_tela_de_2020-11-09_20-13-36](/uploads/b0201db55edc50182e17a325cd93d24d/Captura_de_tela_de_2020-11-09_20-13-36.png)
+
+
+
+### [Vídeo  Sprint 2](https://youtu.be/ubwTZHn9iME "Vídeo Sprint 2:")
 
 #
 
@@ -122,14 +139,14 @@ Importar dados do dataset para aplicação                | Scrum Team;      |  
 Requisito                                                       | Equipe Destinada | Grau de Prioridade | Status
 ---------------------------------------                         | ---------------- | :-------:          |  :--------:
 BurnDown                                                        | Scrum Master;    |         5          |  Em aberto
-Tela de DashBoard dos SteakHolders integrada ao Back-End        | Scrum Team;      |         1          |  Em aberto
-Tela de acesso privativo dos SteakHolders integrada ao Back-End | Scrum Team;      |         1          |  Em aberto
-Deploy Heroku                                                   | Scrum Team;      |         5          |  Em aberto
-Documentação aplicação - Parte 2/2                              | Scrum Master;    |         5          |  Em aberto
+Simulador de score com base em metas;                           | Scrum Team;      |         5          |  Em aberto
+Análise de objetivo selecionado pelo usuário;                   | Scrum Team;      |         5          |  Em aberto
+Sistema de gameficação com a conclusão de metas;                | Scrum Team;      |         5          |  Em aberto
+Documentação aplicação - Parte 2/2                              | Scrum Master;    |         3          |  Em aberto
+Atualização deploy Heroku                                       | Scrum Team;      |         5          |  Em aberto
+Criação Front-End (Tela Principal)                              | Scrum Team;      |         5          |  Em aberto
 
 #
-
-
 
 # REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS
 
