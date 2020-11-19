@@ -21,7 +21,8 @@ public class PessoaFisicaController {
                                             @RequestParam String sexo,
                                             @RequestParam int date,
                                             @RequestParam String cidade,
-                                            @RequestParam String estado) {
+                                            @RequestParam String estado, 
+                                            @RequestParam String senha) {
 
       PessoaFisica pesf = new PessoaFisica(docCli, "", sexo, date, cidade, estado);
       

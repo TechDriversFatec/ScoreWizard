@@ -54,14 +54,14 @@
             <h1>Cadastro</h1>
         </div>
         <div class="mt-4 mx-4 px-4">
-            <form class="row" id="form" method="post">
-                <div class="form-group col-4">
-                    <label for="email">Nome Completo:</label>
-					<input type="text" required="required" id="nome" name="nome" style="width: 100%" value="" />
+            <form class="row" action="#" th:action="@{/cadastro}" th:object="${cadastro}" method="post">
+                <div class="form-group" >
+                    <label for="InputDoc">CPF ou CNPJ:</label>
+                    <input type="text" th:field="*{documento}" class="form-control form-style mb-5" />
                 </div>
-                <div class="form-group col-4">
-                    <label for="email">CPF:</label>
-					<input type="text" required="required" id="docCli" name="docCli" style="width: 100%" value="" />
+                <div class="form-group">
+                    <label for="InputSenha">Nome:</label>
+                    <input type="text" th:field="*{nome}" class="form-control form-style mb-5"/>
                 </div>
                 <div class="form-group col-4">
                     <label for="email">Data de nascimento:</label>
