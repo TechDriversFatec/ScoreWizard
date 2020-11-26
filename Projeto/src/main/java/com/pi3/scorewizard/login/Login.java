@@ -10,14 +10,23 @@ import lombok.Setter;
 @Setter
 public class Login {
 	@Id
-	private int senha_usu;
-	private int pessoaFisica_cpf_pef;
+	private String cpf;
+	private String senha_usu;
+
+	public String getCpf() {
+		return this.cpf;
+	}
+
+	public String getSenha() {
+		return this.senha_usu;
+	}
+	
 	
 	public Login(){}
 	
-	public Login(int senha_usu, int pessoaFisica_cpf_pef) {
+	public Login(String senha_usu, String pessoaFisica_cpf_pef) {
 		super();
 		this.senha_usu = senha_usu;
-		this.pessoaFisica_cpf_pef = pessoaFisica_cpf_pef;
+		this.cpf = pessoaFisica_cpf_pef;
 	}
 }

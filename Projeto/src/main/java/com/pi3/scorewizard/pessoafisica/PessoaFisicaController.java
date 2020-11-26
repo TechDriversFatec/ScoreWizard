@@ -29,8 +29,27 @@ public class PessoaFisicaController {
       return "Saved";
     }
 	
-    @GetMapping(path="/getPessoaFisica")
+    @GetMapping(path="/getAllPessoaFisica")
     public @ResponseBody ArrayList<PessoaFisica> getAllPessoaFisica() {
         return pessoafisicarepository.findAll();
+    }
+
+    @GetMapping(path="/getPessoaFisica")
+    public @ResponseBody PessoaFisica getPessoaFisica(@RequestParam String documento) {
+         return pessoafisicarepository.findByDocumento(documento);
+    }
+
+    @GetMapping(path="/getPessoaFisicaScore")
+    public @ResponseBody int getPessoaFisicaScore(@RequestParam String documento) {
+        PessoaFisica pessoa = pessoafisicarepository.findByDocumento(documento);
+        Double operacao, parcela, atraso, inadimplencia, score;
+
+        operacao = 100.00 / pessoa.getOperacoesCount();
+        parcela = 100.00 / pessoa.getMovimentosCount();
+        atraso = 00.00; // (pessoa.getTotalAtrasos() * 100) / 100
+        inadimplencia = (parcela * atraso)/100;
+        score = 1000-(inadimplencia*10);
+
+        return score.intValue();
     }
 }
