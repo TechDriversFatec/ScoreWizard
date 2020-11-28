@@ -158,12 +158,7 @@ De acordo com o Setor de Negócio/MVP sugerido, verificar as possibilidades de c
 
 • Poderão utilizar de outras fontes de dados para compor produto
 
-• Sistema deve possibilitar o registro de novos usuários no sistema de cadastro positivo,
-assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-se a este:
-
- Empresas que têm o objetivo de consulta do cadastro positivo de consumidores e seu score de crédito  
- 
- Consumidores que desejam consultar seu score de crédito, histórico de pagamentos e também revogar o acesso de alguma empresa
+• Sistema deve possibilitar o registro de novos usuários no sistema de cadastro positivo;
 
 
 
