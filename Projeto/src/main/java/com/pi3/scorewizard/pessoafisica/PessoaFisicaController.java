@@ -38,7 +38,7 @@ public class PessoaFisicaController {
     public @ResponseBody PessoaFisica getPessoaFisica(@RequestParam String documento) {
          return pessoafisicarepository.findByDocumento(documento);
     }
-
+    
     @GetMapping(path="/getPessoaFisicaScore")
     public @ResponseBody int getPessoaFisicaScore(@RequestParam String documento) {
         PessoaFisica pessoa = pessoafisicarepository.findByDocumento(documento);
@@ -46,9 +46,14 @@ public class PessoaFisicaController {
 
         operacao = 100.00 / pessoa.getOperacoesCount();
         parcela = 100.00 / pessoa.getMovimentosCount();
-        atraso = 00.00; // (pessoa.getTotalAtrasos() * 100) / 100
+        atraso = 1.00; // (pessoa.getTotalAtrasos() * 100) / 100
         inadimplencia = (parcela * atraso)/100;
         score = 1000-(inadimplencia*10);
+
+        System.out.println("operacao: " + operacao.toString());
+        System.out.println("parcela: " + parcela.toString());
+        System.out.println("atraso: " + atraso.toString());
+        System.out.println("inadimplencia: " + inadimplencia.toString());
 
         return score.intValue();
     }
