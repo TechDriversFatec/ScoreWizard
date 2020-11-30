@@ -1,6 +1,9 @@
 package com.pi3.scorewizard.pessoafisica;
 
 import java.util.ArrayList;
+
+import com.pi3.scorewizard.movimento.MovimentoRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,7 +17,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class PessoaFisicaController {
 
 	@Autowired
-	private PessoaFisicaRepository pessoafisicarepository;
+    private PessoaFisicaRepository pessoafisicarepository;
+    
+    @Autowired
+	private MovimentoRepository movimentorepository;
 	
 	@PostMapping(path="/addpessoaf")
     public @ResponseBody String addPessoaFisica (@RequestParam String docCli,
@@ -46,7 +52,7 @@ public class PessoaFisicaController {
 
         operacao = 100.00 / pessoa.getOperacoesCount();
         parcela = 100.00 / pessoa.getMovimentosCount();
-        atraso = 1.00; // (pessoa.getTotalAtrasos() * 100) / 100
+        atraso = Double.valueOf((movimentorepository.findByPessoaFisicaDocumento(pessoa.getDocumento()).size() * 100) / 100);
         inadimplencia = (parcela * atraso)/100;
         score = 1000-(inadimplencia*10);
 
