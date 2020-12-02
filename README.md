@@ -138,13 +138,13 @@ Importar dados do dataset para aplicação                | Scrum Team;      |  
 
 Requisito                                                       | Equipe Destinada | Grau de Prioridade | Status
 ---------------------------------------                         | ---------------- | :-------:          |  :--------:
-BurnDown                                                        | Scrum Master;    |         5          |  Em aberto
-Simulador de score com base em metas;                           | Scrum Team;      |         5          |  Em aberto
-Análise de objetivo selecionado pelo usuário;                   | Scrum Team;      |         5          |  Em aberto
-Sistema de gameficação com a conclusão de metas;                | Scrum Team;      |         5          |  Em aberto
-Documentação aplicação - Parte 2/2                              | Scrum Master;    |         3          |  Em aberto
-Atualização deploy Heroku                                       | Scrum Team;      |         5          |  Em aberto
-Criação Front-End (Tela Principal)                              | Scrum Team;      |         5          |  Em aberto
+BurnDown                                                        | Scrum Master;    |         5          |  Concluído
+Simulador de score com base em metas;                           | Scrum Team;      |         5          |  Concluído
+Análise de objetivo selecionado pelo usuário;                   | Scrum Team;      |         5          |  Concluído
+Sistema de gameficação com a conclusão de metas;                | Scrum Team;      |         5          |  Concluído
+Documentação aplicação - Parte 2/2                              | Scrum Master;    |         3          |  Concluído
+Atualização deploy Heroku                                       | Scrum Team;      |         5          |  Concluído
+Criação Front-End (Tela Principal)                              | Scrum Team;      |         5          |  Concluído
 
 #
 ###   Burndown sprint 3 (Final):
