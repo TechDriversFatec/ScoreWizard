@@ -37,14 +37,8 @@ public class IndexController {
 	
 	HelloController cont = new HelloController();
 	  
-	  @GetMapping("/index")
+	  @GetMapping("/")
 	  public String LoginForm(Model model) {
-	    model.addAttribute("index", new Login());
-	    return "index";
-	  }
-	  
-	  @GetMapping("/indexerror")
-	  public String LoginErrorForm(Model model) {
 	    model.addAttribute("index", new Login());
 	    return "index";
 	  }
@@ -59,15 +53,13 @@ public class IndexController {
 		 	while( i <= pessoaf.size()) {
 			  	  if(greeting.getCpf().equals(pessoaf.get(i).getDocumento()) && greeting.getSenha_usu().equals(pessoaf.get(i).getSenha())) {
 			  		  System.out.println("User j cadastrado");
+			  		  pf.getCalcularXP(pessoaf.get(i).getDocumento());
 			  		  return "dashboard";
-			  	  }
-			  	  if(i == (pessoaf.size() - 1)) {
-			  		  return "indexerror";
 			  	  }
 			  	  i++;
 			}
 
-	    return "/index";	  
+	    return null;	  
 	  }
 	  
 	  @GetMapping("/cadastro")

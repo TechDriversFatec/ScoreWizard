@@ -25,11 +25,15 @@ public class PessoaFisica {
 	@OneToMany(mappedBy = "pessoaFisica")
 	private List<Operacao> operacoes;
 	
+	@OneToMany(mappedBy = "pessoaFisica")
+	private List<Pagamento> pagamentos;
+	
 	private String sexo;
 	private int anoNascimento;
 	private String cidade;
 	private String estado;
 	private String senha;
+	private int XP;
 	
 	public String getDocumento() {
 		return this.documento;
@@ -49,7 +53,7 @@ public class PessoaFisica {
 
 	public PessoaFisica(){}
 
-	public PessoaFisica(String documento,String nome, String sexo, int anoNascimento, String cidade, String estado, String senha) {
+	public PessoaFisica(String documento,String nome, String sexo, int anoNascimento, String cidade, String estado, String senha, int XP) {
 		super();
 		this.documento = documento;
 		this.nome = nome;
@@ -58,17 +62,16 @@ public class PessoaFisica {
 		this.anoNascimento = anoNascimento;
 		this.cidade = cidade;
 		this.estado = estado;
+		this.XP = XP;
 	}
 	
-	public PessoaFisica(String documento, String sexo, int anoNascimento, String cidade, String estado) {
+	public PessoaFisica(String documento, String sexo, int anoNascimento, String cidade, String estado, int XP) {
 		super();
 		this.documento = documento;
 		this.sexo = sexo;
 		this.anoNascimento = anoNascimento;
 		this.cidade = cidade;
 		this.estado = estado;
+		this.XP = XP;
 	}
-	
-	
-	
 }
