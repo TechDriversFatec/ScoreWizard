@@ -147,6 +147,11 @@ Atualização deploy Heroku                                       | Scrum Team; 
 Criação Front-End (Tela Principal)                              | Scrum Team;      |         5          |  Em aberto
 
 #
+###   Burndown sprint 3 (Final):
+
+![Captura_de_tela_de_2020-12-02_14-53-09](/uploads/e4b5f1a0aca003b73064f1559d825db3/Captura_de_tela_de_2020-12-02_14-53-09.png)
+
+#
 
 # REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS
 
