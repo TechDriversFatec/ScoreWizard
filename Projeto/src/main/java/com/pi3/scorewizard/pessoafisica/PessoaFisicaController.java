@@ -77,6 +77,16 @@ public class PessoaFisicaController {
       return "Documento não registrado.";
     }
     
+    @GetMapping(path="/getPessoaFisicaMetas")
+    public @ResponseBody Double getPessoaFisicaMetaMovimento(@RequestParam String documento) {
+        PessoaFisica pessoa = pessoafisicarepository.findByDocumento(documento);
+        Double atraso;
+
+        atraso = Double.valueOf((movimentorepository.findByPessoaFisicaDocumento(pessoa.getDocumento()).size() * 100) / 100);
+
+        return atraso;
+    }
+    
     @GetMapping(path="/getPessoaFisicaScore")
     public @ResponseBody int getPessoaFisicaScore(@RequestParam String documento) {
         PessoaFisica pessoa = pessoafisicarepository.findByDocumento(documento);
