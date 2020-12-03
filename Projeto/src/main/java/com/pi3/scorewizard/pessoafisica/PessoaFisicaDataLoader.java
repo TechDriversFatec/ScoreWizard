@@ -41,8 +41,7 @@ public class PessoaFisicaDataLoader implements CommandLineRunner {
                     csvRecord.get("idc_sexo"),
                     csvRecord.get("ano_dat_nascimento").equals("NULL") ? 0 : Integer.parseInt(csvRecord.get("ano_dat_nascimento")),
                     csvRecord.get("nom_cidade"),
-                    csvRecord.get("des_estado")
-                    );
+                    csvRecord.get("des_estado"), 0);
                 pessoaFisicaRepository.save(pessoaFisica);
             }
         }
