@@ -277,3 +277,4 @@ De acordo com o Setor de Negócio/MVP sugerido, verificar as possibilidades de c
 ![Untitled__3_](/uploads/4d96ffa0717698e3700ac27f83767739/Untitled__3_.png)
 
  
+# ScoreWizard
